@@ -29,8 +29,12 @@ const translations = {
   heroLearn: ["Was ist Judo?", "What is judo?", "Что такое дзюдо?", "Що таке дзюдо?"],
   heroNoteFirst: ["Für Anfänger:innen und", "For beginners and", "Для начинающих и", "Для початківців і"],
   heroNoteSecond: ["alle, die in Bewegung bleiben wollen.", "anyone who wants to stay active.", "для всех, кто хочет быть активным.", "для всіх, хто хоче залишатися активним."],
-  heroArt: ["Illustration von zwei Judoka beim Training", "Illustration of two judoka training", "Иллюстрация двух дзюдоистов на тренировке", "Ілюстрація двох дзюдоїстів на тренуванні"],
-  judokaTitle: ["Zwei Judoka in einer dynamischen Trainingsbewegung", "Two judoka in a dynamic training move", "Два дзюдоиста выполняют динамичный приём", "Двоє дзюдоїстів виконують динамічний прийом"],
+  heroPhotoAlt: [
+    "Zwei Judoka üben eine Bodentechnik auf der Matte.",
+    "Two judoka practise a groundwork technique on the mat.",
+    "Два дзюдоиста отрабатывают приём в партере на татами.",
+    "Двоє дзюдоїстів відпрацьовують прийом у партері на татамі."
+  ],
   heroCaption: ["Respekt · Bewegung · Miteinander", "Respect · Movement · Togetherness", "Уважение · Движение · Единство", "Повага · Рух · Єдність"],
   heroSideNote: ["JUDO — GEMEINSAM IN BEWEGUNG", "JUDO — MOVING TOGETHER", "ДЗЮДО — ДВИЖЕМСЯ ВМЕСТЕ", "ДЗЮДО — РУХАЄМОСЯ РАЗОМ"],
   valuesLabel: ["Werte im Judo", "Judo values", "Ценности дзюдо", "Цінності дзюдо"],
@@ -280,6 +284,11 @@ function translate(language) {
   document.querySelectorAll("[data-i18n-content]").forEach((element) => {
     const key = element.dataset.i18nContent;
     element.setAttribute("content", translations[key][languageIndex]);
+  });
+
+  document.querySelectorAll("[data-i18n-alt]").forEach((element) => {
+    const key = element.dataset.i18nAlt;
+    element.setAttribute("alt", translations[key][languageIndex]);
   });
 
   document.querySelectorAll("[data-i18n-aria-label]").forEach((element) => {
