@@ -24,7 +24,6 @@ const translations = {
   navJudo: ["Darum Judo", "Why judo", "Почему дзюдо", "Чому дзюдо"],
   navTraining: ["Trainingszeiten", "Training times", "Расписание", "Розклад"],
   navNews: ["News", "News", "Новости", "Новини"],
-  navTry: ["Probetraining", "Trial training", "Пробная тренировка", "Пробне тренування"],
   navContact: ["Kontakt", "Contact", "Контакты", "Контакти"],
   languageSelector: ["Sprache auswählen", "Choose language", "Выбрать язык", "Обрати мову"],
   heroEyebrow: [
@@ -42,8 +41,6 @@ const translations = {
     "Дзюдо у Брукгаузен-Фільзені вже понад 30 років. Сьогодні в нашій команді понад 80 зареєстрованих дзюдоїстів."
   ],
   heroJoin: ["Zum Probetraining", "Try a session", "На пробную тренировку", "На пробне тренування"],
-  heroNoteFirst: ["Gürtel sammeln,", "Earn belts,", "Получать пояса,", "Здобувати пояси,"],
-  heroNoteSecond: ["Selbstverteidigung und Wettkampfjudo.", "learn self-defence and compete.", "заниматься самообороной и соревноваться.", "займатися самозахистом і змагатися."],
   heroPhotoAlt: [
     "Zwei Judoka üben eine Bodentechnik auf der Matte.",
     "Two judoka practise a groundwork technique on the mat.",
@@ -57,10 +54,10 @@ const translations = {
     "Тренування з дзюдо у Брукгаузен-Фільзені"
   ],
   heroSideNote: [
-    "SEIT ÜBER 30 JAHREN JUDO",
-    "JUDO FOR OVER 30 YEARS",
-    "ДЗЮДО БОЛЕЕ 30 ЛЕТ",
-    "ДЗЮДО ПОНАД 30 РОКІВ"
+    "Seit über 30 Jahren Judo",
+    "Judo for over 30 years",
+    "Дзюдо более 30 лет",
+    "Дзюдо понад 30 років"
   ],
   introEyebrow: ["Über uns", "About us", "О нас", "Про нас"],
   introCopyFirst: [
@@ -93,12 +90,6 @@ const translations = {
   ],
   trainingEyebrow: ["Trainingszeiten", "Training schedule", "Расписание тренировок", "Розклад тренувань"],
   trainingTitle: ["Unsere Trainingszeiten", "Our training times", "Расписание тренировок", "Розклад тренувань"],
-  trainingIntro: [
-    "Training für alle ab 4 Jahren, Anfänger:innen ab 6, fortgeschrittene Kinder ab 10 sowie Jugendliche und Erwachsene ab 13 Jahren.",
-    "Training for everyone aged 4+, beginners aged 6+, advanced children aged 10+, and teens and adults aged 13+.",
-    "Тренировки для всех от 4 лет, для начинающих от 6, для опытных детей от 10, для подростков и взрослых от 13 лет.",
-    "Тренування для всіх від 4 років, для початківців від 6, для досвідчених дітей від 10, для підлітків і дорослих від 13 років."
-  ],
   trainingAgeAll: ["Ab 4 Jahren", "Ages 4+", "От 4 лет", "Від 4 років"],
   trainingGroupAll: ["Training für alle", "Training for everyone", "Тренировка для всех", "Тренування для всіх"],
   weekdayWednesday: ["Mittwochs", "Wednesdays", "Среда", "Середа"],
@@ -123,21 +114,7 @@ const translations = {
     "(спортивна зала на три майданчики біля школи)"
   ],
   mapLink: ["In Google Maps öffnen", "Open in Google Maps", "Открыть в Google Maps", "Відкрити в Google Maps"],
-  officialSiteLink: [
-    "Offizielle Judo-Team-Website",
-    "Official judo team website",
-    "Официальный сайт команды дзюдо",
-    "Офіційний сайт команди з дзюдо"
-  ],
   judoEyebrow: ["Was ist Judo?", "What is judo?", "Что такое дзюдо?", "Що таке дзюдо?"],
-  judoTitleFirst: ["Unser Training basiert auf", "Our training is based on", "Наши тренировки основаны на", "Наші тренування ґрунтуються на"],
-  judoTitleSecond: ["fünf Aspekten.", "five aspects.", "пяти аспектах.", "п’яти аспектах."],
-  judoCopy: [
-    "Jeder Judoverein hat seine eigene Idee vom Judo. Unser Training basiert auf fünf Aspekten.",
-    "Every judo club has its own approach to judo. Our training is based on five aspects.",
-    "У каждого клуба дзюдо свой подход. Наши тренировки основаны на пяти аспектах.",
-    "Кожен клуб дзюдо має свій підхід. Наші тренування ґрунтуються на п’яти аспектах."
-  ],
   pointTechniqueTitle: ["Technischer Aspekt", "Technical aspect", "Технический аспект", "Технічний аспект"],
   pointTechniqueCopy: [
     "Eigene Kräfte und Körpergewicht effizient einsetzen und die Bewegung des Gegenübers nutzen. Dafür braucht es Körpergefühl, Koordination und Gleichgewicht.",
@@ -220,10 +197,10 @@ const translations = {
   tryTitleFirst: ["Ohne Anmeldung", "No booking", "Без записи", "Без попереднього запису"],
   tryTitleSecond: ["zum Training.", "needed.", "на тренировку.", "на тренування."],
   tryCopy: [
-    "Pack deine normalen Sportsachen ein und komm mittwochs oder freitags um 16:00 Uhr in die Große Sporthalle am Schulzentrum. Du kannst dreimal zum Testen kommen, bevor du in den Verein eintreten musst.",
-    "Bring your regular sports clothes and come to the large sports hall at the school campus on Wednesday or Friday at 4 pm. You can try three sessions before joining the club.",
-    "Возьми обычную спортивную одежду и приходи в большой спортивный зал у школы в среду или пятницу к 16:00. Можно прийти на пробную тренировку три раза, прежде чем вступать в клуб.",
-    "Візьми звичайний спортивний одяг і приходь до великої спортивної зали біля школи у середу або п’ятницю о 16:00. Можна прийти на пробне тренування тричі, перш ніж вступати до клубу."
+    "Pack deine normalen Sportsachen ein und komm mittwochs oder freitags um 16:00 Uhr in die große Sporthalle am Schulzentrum. Du kannst dreimal zum Probetraining kommen, bevor du dem Verein beitreten musst.",
+    "Bring your regular sports clothes and come to the large sports hall at the school campus on Wednesday or Friday at 4 pm. You can attend three trial sessions before joining the club.",
+    "Возьми обычную спортивную одежду и приходи в большой спортивный зал у школы в среду или пятницу к 16:00. Ты можешь прийти на три пробные тренировки, прежде чем вступить в клуб.",
+    "Візьми звичайний спортивний одяг і приходь до великої спортивної зали біля школи у середу або п’ятницю о 16:00. Можеш відвідати три пробні тренування, перш ніж вступити до клубу."
   ],
   tryContact: ["Kontakt", "Contact", "Контакты", "Контакти"],
   cardKicker: ["Probetraining", "Trial training", "Пробная тренировка", "Пробне тренування"],
@@ -242,29 +219,16 @@ const translations = {
   contactTitleFirst: ["Schreib", "Write", "Напиши", "Напиши"],
   contactTitleSecond: ["uns!", "to us!", "нам!", "нам!"],
   contactCopy: [
-    "Bei Fragen zum Training oder Probetraining erreichst du Jacqueline Schumann telefonisch oder per E-Mail.",
-    "For questions about training or a trial session, contact Jacqueline Schumann by phone or email.",
-    "По вопросам о тренировках или пробном занятии свяжись с Jacqueline Schumann по телефону или электронной почте.",
-    "Із запитаннями про тренування або пробне заняття звертайся до Jacqueline Schumann телефоном або електронною поштою."
+    "Bei Fragen zum Training oder Probetraining erreichst du Jacqueline Schumann telefonisch oder per E-Mail:",
+    "For questions about training or a trial session, contact Jacqueline Schumann by phone or email:",
+    "По вопросам о тренировках или пробном занятии свяжись с Jacqueline Schumann по телефону или электронной почте:",
+    "Із запитаннями про тренування або пробне заняття звертайся до Jacqueline Schumann телефоном або електронною поштою:"
   ],
   contactDetailsTitle: ["Vereinsleitung", "Club leader", "Руководитель клуба", "Керівниця клубу"],
-  contactPerson: ["Frau Jacqueline Schumann", "Mrs Jacqueline Schumann", "Г-жа Jacqueline Schumann", "Пані Jacqueline Schumann"],
-  phoneLabel: ["Telefon", "Phone", "Телефон", "Телефон"],
-  emailLabel: ["E-Mail", "Email", "Эл. почта", "Е-пошта"],
-  contactNote: [
-    "Jacqueline Schumann ist die Ansprechpartnerin der Vereinsleitung.",
-    "Jacqueline Schumann is the club leadership contact.",
-    "Jacqueline Schumann — контактное лицо руководства клуба.",
-    "Jacqueline Schumann — контактна особа керівництва клубу."
-  ],
-  footerTagline: [
-    "Seit über 30 Jahren Judo in Bruchhausen-Vilsen.",
-    "Judo in Bruchhausen-Vilsen for over 30 years.",
-    "Дзюдо в Брукхаузен-Фильзене более 30 лет.",
-    "Дзюдо в Брукгаузен-Фільзені понад 30 років."
-  ],
-  backToTop: ["Zurück nach oben", "Back to top", "Наверх", "На початок"]
+  contactPerson: ["Jacqueline Schumann", "Jacqueline Schumann", "Jacqueline Schumann", "Jacqueline Schumann"],
 };
+
+Object.assign(translations, window.legalTranslations || {});
 
 const languageCodes = ["de", "en", "ru", "uk"];
 const languageSelector = document.querySelector("#language-selector");
@@ -281,8 +245,12 @@ function translate(language) {
     return;
   }
 
-  document.documentElement.lang = language;
-  if (titleElement) {
+  if (navigation) {
+    navigation.lang = language;
+  }
+
+  if (titleElement && titleElement.dataset.i18n) {
+    document.documentElement.lang = language;
     document.title = translations[titleElement.dataset.i18n][languageIndex];
   }
   if (description && description.dataset.i18nContent) {
@@ -316,6 +284,10 @@ function translate(language) {
   }
 }
 
+function currentLanguageIndex() {
+  return languageCodes.indexOf(languageSelector ? languageSelector.value : document.documentElement.lang);
+}
+
 if (languageSelector) {
   languageSelector.addEventListener("change", (event) => {
     translate(event.target.value);
@@ -327,7 +299,7 @@ if (menuToggle && navigation) {
     const isOpen = menuToggle.getAttribute("aria-expanded") === "true";
     menuToggle.setAttribute("aria-expanded", String(!isOpen));
     menuToggle.querySelector(".sr-only").textContent = translations[isOpen ? "menuOpen" : "menuClose"][
-      languageCodes.indexOf(document.documentElement.lang)
+      currentLanguageIndex()
     ];
     navigation.classList.toggle("is-open", !isOpen);
   });
@@ -336,7 +308,7 @@ if (menuToggle && navigation) {
     if (event.target instanceof Element && event.target.closest("a")) {
       menuToggle.setAttribute("aria-expanded", "false");
       menuToggle.querySelector(".sr-only").textContent =
-        translations.menuOpen[languageCodes.indexOf(document.documentElement.lang)];
+        translations.menuOpen[currentLanguageIndex()];
       navigation.classList.remove("is-open");
     }
   });
