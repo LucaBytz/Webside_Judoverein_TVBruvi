@@ -100,18 +100,15 @@ const translations = {
     "Есть вопросы о тренировках или хочешь сначала посмотреть? Свяжись с клубом — мы с радостью поможем.",
     "Маєш запитання про тренування або хочеш спершу подивитися? Зв’яжися з клубом — ми радо допоможемо."
   ],
-  contactDetailsTitle: ["Vereinskontakt", "Club contact", "Контакты клуба", "Контакти клубу"],
-  contactDetailsCopy: [
-    "Offizielle Website oder E-Mail-Adresse hier ergänzen.",
-    "Add the official website or email address here.",
-    "Добавьте официальный сайт или адрес электронной почты.",
-    "Додайте офіційний сайт або адресу електронної пошти."
-  ],
+  contactDetailsTitle: ["Vereinsleitung", "Club leader", "Руководитель клуба", "Керівниця клубу"],
+  contactPerson: ["Frau Jacqueline Schumann", "Mrs Jacqueline Schumann", "Г-жа Jacqueline Schumann", "Пані Jacqueline Schumann"],
+  phoneLabel: ["Telefon", "Phone", "Телефон", "Телефон"],
+  emailLabel: ["E-Mail", "Email", "Эл. почта", "Е-пошта"],
   contactNote: [
-    "Bitte vor der Veröffentlichung Trainingszeiten und Kontaktdaten ergänzen.",
-    "Add training times and contact details before publishing.",
-    "Перед публикацией добавьте расписание тренировок и контактные данные.",
-    "Перед публікацією додайте розклад тренувань і контактні дані."
+    "Fragen zu Trainingszeiten? Wende dich direkt an die Vereinsleitung.",
+    "Questions about training times? Contact the club leader directly.",
+    "Есть вопросы о расписании? Свяжись напрямую с руководителем клуба.",
+    "Є запитання про розклад? Звернися безпосередньо до керівниці клубу."
   ],
   footerTagline: ["Respekt. Bewegung. Miteinander.", "Respect. Movement. Together.", "Уважение. Движение. Единство.", "Повага. Рух. Єдність."],
   backToTop: ["Zurück nach oben", "Back to top", "Наверх", "На початок"]

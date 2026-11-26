@@ -652,7 +652,33 @@ h2 {
   font-size: 13px;
 }
 
-.contact-details span {
+.contact-details .contact-person {
+  margin-bottom: 3px;
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.contact-method {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  font-size: 11px;
+}
+
+.contact-method:hover {
+  color: var(--orange-dark);
+}
+
+.contact-details .contact-label {
+  color: rgba(32, 35, 31, 0.65);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.contact-details .contact-value {
   color: rgba(32, 35, 31, 0.75);
   font-size: 11px;
 }
