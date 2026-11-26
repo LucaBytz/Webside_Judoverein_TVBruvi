@@ -13,6 +13,11 @@ connection is available and falls back to system sans-serif fonts otherwise.
 
 - Update club copy, training times, venue, contact details, and club links in
   `index.html`.
-- Edit the language strings in `script.js`.
+- Trainer profiles, the club leadership team, the judo principles, trial-session
+  information, and the 2022–2023 competition archive are in `index.html`.
+- Edit all German, English, Russian, and Ukrainian language strings in
+  `script.js`.
 - Adjust colors, layout, and responsive styles in `styles.css`.
 - The small-screen navigation and footer year are handled in `script.js`.
+
+Club details were adapted from the [Judo-Team Bruchhausen-Vilsen website](https://judovilsen.jimdofree.com/).
