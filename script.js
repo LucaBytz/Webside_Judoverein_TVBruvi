@@ -35,7 +35,7 @@ const translations = {
   navClub: ["Über uns", "About us", "О нас", "Про нас"],
   navJudo: ["Darum Judo", "Why judo", "Почему дзюдо", "Чому дзюдо"],
   navTraining: ["Trainingszeiten", "Training times", "Расписание", "Розклад"],
-  navResults: ["Turnierergebnisse", "Competition results", "Результаты турниров", "Результати змагань"],
+  navResults: ["News", "News", "Новости", "Новини"],
   navTry: ["Probetraining", "Trial training", "Пробная тренировка", "Пробне тренування"],
   navContact: ["Kontakt", "Contact", "Контакты", "Контакти"],
   languageSelector: ["Sprache auswählen", "Choose language", "Выбрать язык", "Обрати мову"],
