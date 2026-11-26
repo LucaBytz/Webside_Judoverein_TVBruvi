@@ -413,6 +413,13 @@ h2 {
   font-size: clamp(38px, 5vw, 56px);
 }
 
+.news-heading h1 {
+  max-width: none;
+  margin-bottom: 0;
+  font-size: clamp(38px, 5vw, 56px);
+  line-height: 1.08;
+}
+
 .team-heading > p,
 .news-heading > p {
   max-width: 390px;
@@ -717,6 +724,7 @@ h2 {
   letter-spacing: 0.1em;
 }
 
+.news-card h2,
 .news-card h3 {
   margin: 0 24px 12px;
   font-size: 18px;
@@ -972,7 +980,7 @@ h2 {
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1000px) {
   .menu-toggle {
     display: grid;
     width: 42px;

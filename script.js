@@ -11,6 +11,18 @@ const translations = {
     "Judo-Team Bruchhausen-Vilsen: дзюдо более 30 лет, более 80 зарегистрированных дзюдоистов и тренировки с 4 лет.",
     "Judo-Team Bruchhausen-Vilsen: дзюдо понад 30 років, понад 80 зареєстрованих дзюдоїстів і тренування від 4 років."
   ],
+  resultsPageTitle: [
+    "Turnierergebnisse | Judo-Team Bruchhausen-Vilsen",
+    "Competition results | Judo-Team Bruchhausen-Vilsen",
+    "Результаты турниров | Judo-Team Bruchhausen-Vilsen",
+    "Результати змагань | Judo-Team Bruchhausen-Vilsen"
+  ],
+  resultsPageDescription: [
+    "Turnierberichte des Judo-Teams Bruchhausen-Vilsen aus den Jahren 2022 und 2023.",
+    "Competition reports from Judo-Team Bruchhausen-Vilsen in 2022 and 2023.",
+    "Отчёты о соревнованиях Judo-Team Bruchhausen-Vilsen за 2022 и 2023 годы.",
+    "Звіти про змагання Judo-Team Bruchhausen-Vilsen за 2022 і 2023 роки."
+  ],
   brandHome: [
     "Judo-Team Bruchhausen-Vilsen – Startseite",
     "Judo-Team Bruchhausen-Vilsen – Home",
@@ -23,6 +35,7 @@ const translations = {
   navClub: ["Über uns", "About us", "О нас", "Про нас"],
   navJudo: ["Darum Judo", "Why judo", "Почему дзюдо", "Чому дзюдо"],
   navTraining: ["Trainingszeiten", "Training times", "Расписание", "Розклад"],
+  navResults: ["Turnierergebnisse", "Competition results", "Результаты турниров", "Результати змагань"],
   navTry: ["Probetraining", "Trial training", "Пробная тренировка", "Пробне тренування"],
   navContact: ["Kontakt", "Contact", "Контакты", "Контакти"],
   languageSelector: ["Sprache auswählen", "Choose language", "Выбрать язык", "Обрати мову"],
@@ -302,6 +315,7 @@ const menuToggle = document.querySelector(".menu-toggle");
 const navigation = document.querySelector("#primary-navigation");
 const currentYear = document.querySelector("#current-year");
 const description = document.querySelector('meta[name="description"]');
+const titleElement = document.querySelector("title");
 
 function translate(language) {
   const languageIndex = languageCodes.indexOf(language);
@@ -311,9 +325,11 @@ function translate(language) {
   }
 
   document.documentElement.lang = language;
-  document.title = translations.pageTitle[languageIndex];
-  if (description) {
-    description.content = translations.pageDescription[languageIndex];
+  if (titleElement) {
+    document.title = translations[titleElement.dataset.i18n][languageIndex];
+  }
+  if (description && description.dataset.i18nContent) {
+    description.content = translations[description.dataset.i18nContent][languageIndex];
   }
 
   document.querySelectorAll("[data-i18n]").forEach((element) => {
