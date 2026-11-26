@@ -452,6 +452,109 @@ h2 {
   margin-top: 14px;
 }
 
+.training-section {
+  padding: 100px 0 94px;
+  background: #e9e3d8;
+}
+
+.training-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 38px;
+}
+
+.training-heading h2 {
+  font-size: clamp(38px, 5vw, 56px);
+}
+
+.training-heading > p {
+  max-width: 390px;
+  margin-bottom: 5px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.training-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.training-card {
+  display: flex;
+  min-height: 205px;
+  flex-direction: column;
+  padding: 24px;
+  background: var(--paper);
+}
+
+.training-age {
+  margin-bottom: 14px;
+  color: var(--orange-dark);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.training-card h3 {
+  margin-bottom: 22px;
+  font-size: 20px;
+  letter-spacing: -0.04em;
+  line-height: 1.25;
+}
+
+.training-schedule {
+  display: grid;
+  gap: 5px;
+  margin-top: auto;
+  padding-top: 13px;
+  border-top: 1px solid var(--line);
+  font-size: 12px;
+}
+
+.training-schedule time {
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.training-location {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 24px;
+  align-items: center;
+  margin-top: 34px;
+  padding-top: 30px;
+  border-top: 1px solid var(--line);
+}
+
+.location-copy .eyebrow {
+  margin-bottom: 12px;
+}
+
+.location-copy h3 {
+  margin-bottom: 8px;
+  font-size: 21px;
+}
+
+.location-copy address {
+  color: var(--muted);
+  font-size: 13px;
+  font-style: normal;
+  line-height: 1.7;
+}
+
+.location-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+}
+
 .judo-section {
   padding: 100px 0 105px;
   background: var(--ink);
@@ -766,13 +869,13 @@ h2 {
   .try-section {
     gap: 8%;
   }
+
+  .training-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
-@media (max-width: 650px) {
-  .site-header {
-    min-height: 72px;
-  }
-
+@media (max-width: 850px) {
   .menu-toggle {
     display: grid;
     width: 42px;
@@ -825,6 +928,12 @@ h2 {
   .nav-cta {
     justify-content: space-between;
     margin-top: 13px;
+  }
+}
+
+@media (max-width: 650px) {
+  .site-header {
+    min-height: 72px;
   }
 
   .hero {
@@ -901,11 +1010,38 @@ h2 {
   }
 
   .intro,
+  .training-heading,
+  .training-location,
   .judo-layout,
   .try-section,
   .contact-layout {
     grid-template-columns: 1fr;
     gap: 35px;
+  }
+
+  .training-heading {
+    display: grid;
+    margin-bottom: 28px;
+  }
+
+  .training-section {
+    padding: 75px 0;
+  }
+
+  .training-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .training-card {
+    min-height: 180px;
+  }
+
+  .training-location {
+    margin-top: 28px;
+  }
+
+  .location-links {
+    align-items: flex-start;
   }
 
   .intro {

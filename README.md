@@ -11,7 +11,8 @@ connection is available and falls back to system sans-serif fonts otherwise.
 
 ## Customize
 
-- Update the club copy and add the official contact details in `index.html`.
+- Update club copy, training times, venue, contact details, and club links in
+  `index.html`.
 - Edit the language strings in `script.js`.
 - Adjust colors, layout, and responsive styles in `styles.css`.
 - The small-screen navigation and footer year are handled in `script.js`.
