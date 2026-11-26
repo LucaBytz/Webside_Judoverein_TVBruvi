@@ -54,7 +54,6 @@ const translations = {
     "Дзюдо у Брукгаузен-Фільзені вже понад 30 років. Сьогодні в нашій команді понад 80 зареєстрованих дзюдоїстів."
   ],
   heroJoin: ["Zum Probetraining", "Try a session", "На пробную тренировку", "На пробне тренування"],
-  heroLearn: ["Warum Judo?", "Why judo?", "Почему дзюдо?", "Чому дзюдо?"],
   heroNoteFirst: ["Gürtel sammeln,", "Earn belts,", "Получать пояса,", "Здобувати пояси,"],
   heroNoteSecond: ["Selbstverteidigung und Wettkampfjudo.", "learn self-defence and compete.", "заниматься самообороной и соревноваться.", "займатися самозахистом і змагатися."],
   heroPhotoAlt: [
@@ -128,10 +127,10 @@ const translations = {
   janineCredentialThree: ["Trainerassistenz A · 1. Kyu", "Trainer assistant A · 1st Kyu", "Ассистент тренера A · 1-й кю", "Асистент тренера A · 1-й кю"],
   leadershipTitle: ["Spartenleitung", "Judo section leadership", "Руководство секцией", "Керівництво секцією"],
   leadershipCopy: [
-    "Jacqueline Schumann, Björn Terveen, Ines Kämmerer und Stephanie Schmitz – unterstützt von engagierten Eltern.",
-    "Jacqueline Schumann, Björn Terveen, Ines Kämmerer and Stephanie Schmitz, supported by involved parents.",
-    "Jacqueline Schumann, Björn Terveen, Ines Kämmerer и Stephanie Schmitz при поддержке активных родителей.",
-    "Jacqueline Schumann, Björn Terveen, Ines Kämmerer та Stephanie Schmitz за підтримки активних батьків."
+    "Jacqueline Schumann, Ines Kämmerer und Stephanie Schmitz – unterstützt von engagierten Eltern.",
+    "Jacqueline Schumann, Ines Kämmerer and Stephanie Schmitz, supported by involved parents.",
+    "Jacqueline Schumann, Ines Kämmerer и Stephanie Schmitz при поддержке активных родителей.",
+    "Jacqueline Schumann, Ines Kämmerer та Stephanie Schmitz за підтримки активних батьків."
   ],
   trainingEyebrow: ["Trainingszeiten", "Training schedule", "Расписание тренировок", "Розклад тренувань"],
   trainingTitle: ["Unsere Trainingszeiten", "Our training times", "Расписание тренировок", "Розклад тренувань"],
