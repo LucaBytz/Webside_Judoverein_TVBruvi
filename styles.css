@@ -159,7 +159,7 @@ button {
   text-transform: uppercase;
 }
 
-.eyebrow > span {
+.eyebrow > span:first-child {
   width: 25px;
   height: 2px;
   background: var(--orange);

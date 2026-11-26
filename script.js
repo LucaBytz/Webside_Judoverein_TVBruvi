@@ -1,70 +1,100 @@
 const translations = {
-  pageTitle: ["Judo beim TV Bruvi", "TV Bruvi Judo Club", "Дзюдо в TV Bruvi", "Дзюдо у TV Bruvi"],
-  pageDescription: [
-    "Judo beim TV Bruvi: gemeinsam lernen, trainieren und über sich hinauswachsen.",
-    "Judo at TV Bruvi: learn, train and grow together.",
-    "Дзюдо в TV Bruvi: учимся, тренируемся и растём вместе.",
-    "Дзюдо у TV Bruvi: навчаємося, тренуємося та зростаємо разом."
+  pageTitle: [
+    "Judo-Team Bruchhausen-Vilsen",
+    "Judo-Team Bruchhausen-Vilsen",
+    "Judo-Team Bruchhausen-Vilsen",
+    "Judo-Team Bruchhausen-Vilsen"
   ],
-  brandHome: ["TV Bruvi Judo – Startseite", "TV Bruvi Judo – Home", "Дзюдо в TV Bruvi — главная", "Дзюдо у TV Bruvi — головна"],
+  pageDescription: [
+    "Judo-Team Bruchhausen-Vilsen: Seit über 30 Jahren Judo, mehr als 80 gemeldete Judoka und Training ab 4 Jahren.",
+    "Judo-Team Bruchhausen-Vilsen: judo for over 30 years, more than 80 registered judoka and training from age 4.",
+    "Judo-Team Bruchhausen-Vilsen: дзюдо более 30 лет, более 80 зарегистрированных дзюдоистов и тренировки с 4 лет.",
+    "Judo-Team Bruchhausen-Vilsen: дзюдо понад 30 років, понад 80 зареєстрованих дзюдоїстів і тренування від 4 років."
+  ],
+  brandHome: [
+    "Judo-Team Bruchhausen-Vilsen – Startseite",
+    "Judo-Team Bruchhausen-Vilsen – Home",
+    "Judo-Team Bruchhausen-Vilsen — главная",
+    "Judo-Team Bruchhausen-Vilsen — головна"
+  ],
   menuOpen: ["Menü öffnen", "Open menu", "Открыть меню", "Відкрити меню"],
   menuClose: ["Menü schließen", "Close menu", "Закрыть меню", "Закрити меню"],
   navLabel: ["Hauptnavigation", "Main navigation", "Основная навигация", "Головна навігація"],
-  navClub: ["Verein", "Club", "Клуб", "Клуб"],
-  navJudo: ["Judo", "Judo", "Дзюдо", "Дзюдо"],
-  navTraining: ["Training", "Training", "Тренировки", "Тренування"],
-  navTry: ["Mitmachen", "Get involved", "Присоединиться", "Приєднатися"],
+  navClub: ["Über uns", "About us", "О нас", "Про нас"],
+  navJudo: ["Darum Judo", "Why judo", "Почему дзюдо", "Чому дзюдо"],
+  navTraining: ["Trainingszeiten", "Training times", "Расписание", "Розклад"],
+  navTry: ["Probetraining", "Trial training", "Пробная тренировка", "Пробне тренування"],
   navContact: ["Kontakt", "Contact", "Контакты", "Контакти"],
   languageSelector: ["Sprache auswählen", "Choose language", "Выбрать язык", "Обрати мову"],
-  heroEyebrow: ["Judo beim TV Bruvi", "Judo at TV Bruvi", "Дзюдо в TV Bruvi", "Дзюдо у TV Bruvi"],
-  heroTitleFirst: ["Stark werden.", "Get stronger.", "Стань сильнее.", "Ставай сильнішим."],
-  heroTitleSecond: ["Zusammen wachsen.", "Grow together.", "Растём вместе.", "Зростаймо разом."],
-  heroDescription: [
-    "Judo ist mehr als ein Sport. Es ist Bewegung, Respekt und das gute Gefühl, gemeinsam etwas zu schaffen.",
-    "Judo is more than a sport. It brings movement, respect and the joy of achieving something together.",
-    "Дзюдо — это больше, чем спорт. Это движение, уважение и радость от того, что мы достигаем целей вместе.",
-    "Дзюдо — це більше, ніж спорт. Це рух, повага та радість від спільних досягнень."
+  heroEyebrow: [
+    "Judo für alle ab 4 Jahren",
+    "Judo for everyone aged 4+",
+    "Дзюдо для всех от 4 лет",
+    "Дзюдо для всіх від 4 років"
   ],
-  heroJoin: ["Lerne uns kennen", "Come meet us", "Познакомься с нами", "Познайомся з нами"],
-  heroLearn: ["Was ist Judo?", "What is judo?", "Что такое дзюдо?", "Що таке дзюдо?"],
-  heroNoteFirst: ["Für Anfänger:innen und", "For beginners and", "Для начинающих и", "Для початківців і"],
-  heroNoteSecond: ["alle, die in Bewegung bleiben wollen.", "anyone who wants to stay active.", "для всех, кто хочет быть активным.", "для всіх, хто хоче залишатися активним."],
+  heroTitleFirst: ["Judo-Team", "Judo team", "Команда дзюдо", "Команда з дзюдо"],
+  heroTitleSecond: ["Bruchhausen-Vilsen", "Bruchhausen-Vilsen", "Брукхаузен-Фильзен", "Брукгаузен-Фільзен"],
+  heroDescription: [
+    "Seit über 30 Jahren Judo in Bruchhausen-Vilsen – heute mit mehr als 80 gemeldeten Judoka in unserem Team.",
+    "Judo in Bruchhausen-Vilsen for over 30 years, with more than 80 registered judoka on our team today.",
+    "Дзюдо в Брукхаузен-Фильзене уже более 30 лет. Сегодня в нашей команде более 80 зарегистрированных дзюдоистов.",
+    "Дзюдо у Брукгаузен-Фільзені вже понад 30 років. Сьогодні в нашій команді понад 80 зареєстрованих дзюдоїстів."
+  ],
+  heroJoin: ["Zum Probetraining", "Try a session", "На пробную тренировку", "На пробне тренування"],
+  heroLearn: ["Warum Judo?", "Why judo?", "Почему дзюдо?", "Чому дзюдо?"],
+  heroNoteFirst: ["Gürtel sammeln,", "Earn belts,", "Получать пояса,", "Здобувати пояси,"],
+  heroNoteSecond: ["Selbstverteidigung und Wettkampfjudo.", "learn self-defence and compete.", "заниматься самообороной и соревноваться.", "займатися самозахистом і змагатися."],
   heroPhotoAlt: [
     "Zwei Judoka üben eine Bodentechnik auf der Matte.",
     "Two judoka practise a groundwork technique on the mat.",
     "Два дзюдоиста отрабатывают приём в партере на татами.",
     "Двоє дзюдоїстів відпрацьовують прийом у партері на татамі."
   ],
-  heroCaption: ["Respekt · Bewegung · Miteinander", "Respect · Movement · Togetherness", "Уважение · Движение · Единство", "Повага · Рух · Єдність"],
-  heroSideNote: ["JUDO — GEMEINSAM IN BEWEGUNG", "JUDO — MOVING TOGETHER", "ДЗЮДО — ДВИЖЕМСЯ ВМЕСТЕ", "ДЗЮДО — РУХАЄМОСЯ РАЗОМ"],
-  valuesLabel: ["Werte im Judo", "Judo values", "Ценности дзюдо", "Цінності дзюдо"],
-  valueRespect: ["Respekt", "Respect", "Уважение", "Повага"],
-  valueCourage: ["Mut", "Courage", "Смелость", "Сміливість"],
-  valueTogether: ["Miteinander", "Togetherness", "Единство", "Єдність"],
-  valueMovement: ["Bewegung", "Movement", "Движение", "Рух"],
-  introEyebrow: ["Schön, dass du da bist", "We’re glad you’re here", "Рады, что ты здесь", "Раді, що ти тут"],
-  introTitleFirst: ["Ein Platz auf der Matte", "There’s always room", "На татами всегда", "На татамі завжди"],
-  introTitleSecond: ["ist immer frei.", "on the mat.", "есть свободное место.", "є вільне місце."],
+  heroCaption: [
+    "Judo-Training in Bruchhausen-Vilsen",
+    "Judo training in Bruchhausen-Vilsen",
+    "Тренировки по дзюдо в Брукхаузен-Фильзене",
+    "Тренування з дзюдо у Брукгаузен-Фільзені"
+  ],
+  heroSideNote: [
+    "SEIT ÜBER 30 JAHREN JUDO",
+    "JUDO FOR OVER 30 YEARS",
+    "ДЗЮДО БОЛЕЕ 30 ЛЕТ",
+    "ДЗЮДО ПОНАД 30 РОКІВ"
+  ],
+  valuesLabel: ["Trainingsschwerpunkte", "Training focus", "Направления тренировок", "Напрями тренувань"],
+  valueRespect: ["Motorik", "Motor skills", "Моторика", "Моторика"],
+  valueCourage: ["Disziplin", "Discipline", "Дисциплина", "Дисципліна"],
+  valueTogether: ["Teamgeist", "Teamwork", "Командный дух", "Командний дух"],
+  valueMovement: ["Selbstverteidigung", "Self-defence", "Самооборона", "Самозахист"],
+  introEyebrow: ["Über uns", "About us", "О нас", "Про нас"],
+  introTitleFirst: ["Seit über 30 Jahren", "For over 30 years", "Более 30 лет", "Понад 30 років"],
+  introTitleSecond: [
+    "Judo in Bruchhausen-Vilsen.",
+    "judo in Bruchhausen-Vilsen.",
+    "дзюдо в Брукхаузен-Фильзене.",
+    "дзюдо у Брукгаузен-Фільзені."
+  ],
   introCopyFirst: [
-    "Judo gibt es in Bruchhausen-Vilsen seit über 30 Jahren. In unserer Sparte trainieren mehr als 80 gemeldete Judoka.",
-    "Judo has been part of Bruchhausen-Vilsen for over 30 years. Our club has more than 80 registered judoka.",
-    "Дзюдо в Брукхаузен-Фильзене развивается уже более 30 лет. В нашей секции занимаются более 80 зарегистрированных дзюдоистов.",
-    "Дзюдо в Брукгаузен-Фільзені розвивається вже понад 30 років. У нашій секції займаються понад 80 зареєстрованих дзюдоїстів."
+    "Ob Gürtelprüfungen, Selbstverteidigung, Beweglichkeit oder Wettkampfjudo: Unser gut ausgebildetes Trainerteam unterstützt dich bei deinen Zielen.",
+    "Whether you want to earn belts, learn self-defence, improve mobility or compete, our qualified coaches support your goals.",
+    "Наши квалифицированные тренеры помогут тебе достичь целей: сдавать экзамены на пояса, освоить самооборону, улучшить подвижность или участвовать в соревнованиях.",
+    "Наші кваліфіковані тренери допоможуть тобі досягти мети: складати іспити на пояси, опанувати самозахист, покращити рухливість або брати участь у змаганнях."
   ],
   introCopySecond: [
-    "Unser gut ausgebildetes Trainerteam begleitet dich – ob du an deinem nächsten Gürtel arbeitest, Selbstverteidigung lernen, deine Beweglichkeit verbessern oder Wettkampfjudo ausprobieren möchtest.",
-    "Our qualified coaching team can support your goals—earning your next belt, learning self-defence, improving mobility or trying competition judo.",
-    "Опытные тренеры помогут тебе достичь целей — получить следующий пояс, освоить самооборону, развить подвижность или попробовать себя в спортивных соревнованиях.",
-    "Кваліфіковані тренери допоможуть тобі досягти мети — здобути наступний пояс, опанувати самозахист, покращити рухливість або спробувати себе у змагальному дзюдо."
+    "Seit über 30 Jahren gibt es Judo in Bruchhausen-Vilsen. Heute gehören mehr als 80 gemeldete Judoka zum Judo-Team.",
+    "Judo has been part of Bruchhausen-Vilsen for over 30 years. Today, more than 80 registered judoka are part of the team.",
+    "Дзюдо существует в Брукхаузен-Фильзене более 30 лет. Сегодня в команде более 80 зарегистрированных дзюдоистов.",
+    "Дзюдо існує в Брукгаузен-Фільзені понад 30 років. Сьогодні в команді понад 80 зареєстрованих дзюдоїстів."
   ],
-  introJoin: ["Komm vorbei", "Come along", "Приходи", "Завітай"],
+  introJoin: ["Trainingszeiten ansehen", "See training times", "Расписание тренировок", "Розклад тренувань"],
   teamEyebrow: ["Unser Trainerteam", "Our coaching team", "Наша команда тренеров", "Наша команда тренерів"],
-  teamTitle: ["Erfahrung, die dich stärkt.", "Experience to help you grow.", "Опыт, который помогает расти.", "Досвід, що допомагає зростати."],
+  teamTitle: ["Unsere Trainer", "Our coaches", "Наши тренеры", "Наші тренери"],
   teamIntro: [
-    "Unsere Trainer:innen bringen Wettkampferfahrung und Qualifikationen mit und begleiten verschiedene Altersgruppen.",
-    "Our coaches bring competition experience and qualifications, and work with different age groups.",
-    "Наши тренеры имеют соревновательный опыт и квалификации и занимаются с разными возрастными группами.",
-    "Наші тренери мають змагальний досвід і кваліфікацію та працюють із різними віковими групами."
+    "Trainer:innen mit Wettkampferfahrung, Lizenzen und Dan-Grad.",
+    "Coaches with competition experience, qualifications and a Dan grade.",
+    "Тренеры с соревновательным опытом, лицензиями и даном.",
+    "Тренери зі змагальним досвідом, ліцензіями та даном."
   ],
   patrickRole: ["Trainer für Jugendliche und Erwachsene", "Coach for teens and adults", "Тренер подростков и взрослых", "Тренер для підлітків і дорослих"],
   patrickCredentialOne: ["Ehemaliger Wettkämpfer", "Former competitor", "Бывший участник соревнований", "Колишній учасник змагань"],
@@ -91,20 +121,20 @@ const translations = {
     "Jacqueline Schumann, Björn Terveen, Ines Kämmerer та Stephanie Schmitz за підтримки активних батьків."
   ],
   trainingEyebrow: ["Trainingszeiten", "Training schedule", "Расписание тренировок", "Розклад тренувань"],
-  trainingTitle: ["Finde dein Training.", "Find your training group.", "Выбери свою группу.", "Обери свою групу."],
+  trainingTitle: ["Unsere Trainingszeiten", "Our training times", "Расписание тренировок", "Розклад тренувань"],
   trainingIntro: [
-    "Vier Trainingsgruppen bieten einen passenden Einstieg für Kinder, Jugendliche und Erwachsene.",
-    "Four groups offer a place to start for children, teens and adults.",
-    "В четырёх группах найдётся подходящее занятие для детей, подростков и взрослых.",
-    "У чотирьох групах знайдеться заняття для дітей, підлітків і дорослих."
+    "Training für alle ab 4 Jahren, Anfänger:innen ab 6, fortgeschrittene Kinder ab 10 sowie Jugendliche und Erwachsene ab 13 Jahren.",
+    "Training for everyone aged 4+, beginners aged 6+, advanced children aged 10+, and teens and adults aged 13+.",
+    "Тренировки для всех от 4 лет, для начинающих от 6, для опытных детей от 10, для подростков и взрослых от 13 лет.",
+    "Тренування для всіх від 4 років, для початківців від 6, для досвідчених дітей від 10, для підлітків і дорослих від 13 років."
   ],
   trainingAgeAll: ["Ab 4 Jahren", "Ages 4+", "От 4 лет", "Від 4 років"],
-  trainingGroupAll: ["Training für alle", "All-level training", "Тренировка для всех", "Тренування для всіх"],
+  trainingGroupAll: ["Training für alle", "Training for everyone", "Тренировка для всех", "Тренування для всіх"],
   weekdayWednesday: ["Mittwochs", "Wednesdays", "Среда", "Середа"],
   trainingAgeBeginners: ["Ab 6 Jahren", "Ages 6+", "От 6 лет", "Від 6 років"],
   trainingGroupBeginners: ["Anfängergruppe", "Beginners", "Группа начинающих", "Група початківців"],
   weekdayFriday: ["Freitags", "Fridays", "Пятница", "П’ятниця"],
-  trainingAgeAdvanced: ["10–13 Jahre", "Ages 10–13", "10–13 лет", "10–13 років"],
+  trainingAgeAdvanced: ["Ab 10 Jahren", "Ages 10+", "От 10 лет", "Від 10 років"],
   trainingGroupAdvanced: ["Fortgeschrittene Kinder", "Advanced children", "Опытные дети", "Діти з досвідом"],
   trainingAgeAdults: ["Ab 13 Jahren", "Ages 13+", "От 13 лет", "Від 13 років"],
   trainingGroupAdults: [
@@ -114,8 +144,13 @@ const translations = {
     "Дзюдо та самозахист"
   ],
   locationEyebrow: ["Trainingsort", "Training venue", "Место тренировок", "Місце тренувань"],
-  locationName: ["Dreifeldsporthalle", "Three-court sports hall", "Трёхзальный спорткомплекс", "Спортивний зал на три майданчики"],
-  schoolCenter: ["(Schulzentrum)", "(school campus)", "(школьный комплекс)", "(шкільний комплекс)"],
+  locationName: ["Große Sporthalle", "Large sports hall", "Большой спортивный зал", "Велика спортивна зала"],
+  schoolCenter: [
+    "(3-Feld-Sporthalle am Schulzentrum)",
+    "(three-court sports hall at the school campus)",
+    "(трёхзальный спортзал у школьного комплекса)",
+    "(спортивна зала на три майданчики біля школи)"
+  ],
   mapLink: ["In Google Maps öffnen", "Open in Google Maps", "Открыть в Google Maps", "Відкрити в Google Maps"],
   officialSiteLink: [
     "Offizielle Judo-Team-Website",
@@ -123,136 +158,141 @@ const translations = {
     "Официальный сайт команды дзюдо",
     "Офіційний сайт команди з дзюдо"
   ],
-  judoStamp: ["DER SANFTE WEG", "THE GENTLE WAY", "МЯГКИЙ ПУТЬ", "М’ЯКИЙ ШЛЯХ"],
-  judoEyebrow: ["Mehr als Technik", "More than technique", "Больше, чем техника", "Більше, ніж техніка"],
-  judoTitleFirst: ["Judo heißt,", "Judo means", "Дзюдо — это", "Дзюдо — це"],
-  judoTitleSecond: ["miteinander besser werden.", "getting better together.", "становиться лучше вместе.", "ставати кращими разом."],
+  judoStamp: ["FÜNF ASPEKTE DES JUDO", "FIVE ASPECTS OF JUDO", "ПЯТЬ АСПЕКТОВ ДЗЮДО", "П’ЯТЬ АСПЕКТІВ ДЗЮДО"],
+  judoEyebrow: ["Was ist Judo?", "What is judo?", "Что такое дзюдо?", "Що таке дзюдо?"],
+  judoTitleFirst: ["Unser Training basiert auf", "Our training is based on", "Наши тренировки основаны на", "Наші тренування ґрунтуються на"],
+  judoTitleSecond: ["fünf Aspekten.", "five aspects.", "пяти аспектах.", "п’яти аспектах."],
   judoCopy: [
-    "Judo ist eine japanische Kampfkunst mit Wurzeln im Jiu-Jitsu. Statt auf rohe Kraft setzen wir auf Technik, Gleichgewicht und Geschick – beim Werfen und bei der Kontrolle am Boden. Fairness und gegenseitiger Respekt gehören immer dazu.",
-    "Judo is a Japanese martial art rooted in Jiu-Jitsu. Rather than relying on brute strength, practitioners use technique, balance and timing for throws and ground control—with fairness and mutual respect at its core.",
-    "Дзюдо — японское боевое искусство, основанное на джиу-джитсу. Вместо грубой силы здесь используют технику, равновесие и ловкость для бросков и контроля в партере, всегда сохраняя честность и взаимное уважение.",
-    "Дзюдо — японське бойове мистецтво, що походить від дзюдзюцу. Замість грубої сили використовують техніку, рівновагу й спритність для кидків і контролю в партері, зберігаючи чесність і взаємну повагу."
+    "Jeder Judoverein hat seine eigene Idee vom Judo. Unser Training basiert auf fünf Aspekten.",
+    "Every judo club has its own approach to judo. Our training is based on five aspects.",
+    "У каждого клуба дзюдо свой подход. Наши тренировки основаны на пяти аспектах.",
+    "Кожен клуб дзюдо має свій підхід. Наші тренування ґрунтуються на п’яти аспектах."
   ],
-  pointTechniqueTitle: ["Technik", "Technique", "Техника", "Техніка"],
+  pointTechniqueTitle: ["Technischer Aspekt", "Technical aspect", "Технический аспект", "Технічний аспект"],
   pointTechniqueCopy: [
-    "Kraft effizient einsetzen; Körpergefühl, Gleichgewicht und Koordination entwickeln.",
-    "Use strength efficiently; develop body awareness, balance and coordination.",
-    "Эффективно использовать силу, развивать чувство тела, равновесие и координацию.",
-    "Ефективно використовувати силу, розвивати відчуття тіла, рівновагу й координацію."
+    "Eigene Kräfte und Körpergewicht effizient einsetzen und die Bewegung des Gegenübers nutzen. Dafür braucht es Körpergefühl, Koordination und Gleichgewicht.",
+    "Use strength and body weight efficiently, and make use of an opponent’s movement. This requires body awareness, coordination and balance.",
+    "Эффективно использовать силу и вес своего тела, а также движения соперника. Для этого нужны чувство тела, координация и равновесие.",
+    "Ефективно використовувати силу й вагу власного тіла та рухи суперника. Для цього потрібні відчуття тіла, координація й рівновага."
   ],
-  pointValuesTitle: ["Respekt", "Respect", "Уважение", "Повага"],
+  pointValuesTitle: ["Moralischer Aspekt", "Moral aspect", "Нравственный аспект", "Моральний аспект"],
   pointValuesCopy: [
-    "Disziplin üben und Trainingspartner:innen sowie Lehrende achten.",
-    "Practise discipline and respect training partners and instructors.",
-    "Развивать дисциплину и уважение к партнёрам и тренерам.",
-    "Розвивати дисципліну й повагу до партнерів та тренерів."
+    "Judo ist ein Zweikampf. Dazu gehören Disziplin, Stärke gegenüber sich selbst und Respekt vor anderen Sportler:innen und Lehrenden.",
+    "Judo is a contest between two people. It calls for discipline, being strict with yourself, and respect for other athletes and instructors.",
+    "Дзюдо — поединок двух спортсменов. Он требует дисциплины, строгости к себе и уважения к другим спортсменам и тренерам.",
+    "Дзюдо — поєдинок двох спортсменів. Він потребує дисципліни, вимогливості до себе й поваги до інших спортсменів і тренерів."
   ],
-  pointConfidenceTitle: ["Selbstvertrauen", "Confidence", "Уверенность", "Впевненість"],
+  pointConfidenceTitle: ["Aspekt des Selbstbewusstseins", "Self-confidence aspect", "Аспект уверенности в себе", "Аспект упевненості в собі"],
   pointConfidenceCopy: [
-    "Durch Prüfungen, Wettkämpfe und Verantwortung eigene Fähigkeiten entdecken.",
-    "Discover your abilities through gradings, competitions and taking responsibility.",
-    "Раскрывать свои способности через аттестации, соревнования и ответственность.",
-    "Відкривати свої здібності через атестації, змагання та відповідальність."
+    "Erfolge bei Gürtelprüfungen und Wettkämpfen sowie spätere Trainertätigkeiten helfen Judoka, die eigenen Fähigkeiten zu erkennen und selbstbewusst durchs Leben zu gehen.",
+    "Belt grading and competition successes, and later coaching, help judoka recognise their abilities and approach life with confidence.",
+    "Успехи на экзаменах на пояса и соревнованиях, а позднее работа тренером помогают дзюдоистам раскрыть свои способности и обрести уверенность в себе.",
+    "Успіхи на іспитах на пояси та змаганнях, а згодом тренерська діяльність допомагають дзюдоїстам розкрити свої здібності й набути впевненості в собі."
   ],
-  pointSafetyTitle: ["Selbstschutz", "Self-protection", "Самозащита", "Самозахист"],
+  pointSafetyTitle: ["Aspekt der Selbstverteidigung", "Self-defence aspect", "Аспект самообороны", "Аспект самозахисту"],
   pointSafetyCopy: [
-    "Selbstbewusst auftreten und sicheres Fallen üben.",
-    "Build confidence and practise how to fall safely.",
-    "Уверенно держаться и учиться безопасно падать.",
-    "Впевнено поводитися та вчитися безпечно падати."
+    "Ein selbstbewusstes Auftreten kann Konfrontationen vermeiden. Für Notsituationen bereiten wir Judoka vor; die Fallschule ist in jedem Training dabei.",
+    "A confident manner can help avoid confrontation. We prepare judoka for emergencies, and practise breakfalls at every session.",
+    "Уверенное поведение может помочь избежать конфликта. Мы готовим дзюдоистов к опасным ситуациям и отрабатываем безопасное падение на каждой тренировке.",
+    "Упевнена поведінка може допомогти уникнути конфлікту. Ми готуємо дзюдоїстів до небезпечних ситуацій і відпрацьовуємо безпечне падіння на кожному тренуванні."
   ],
-  pointTeamTitle: ["Teamgeist", "Teamwork", "Командный дух", "Командний дух"],
+  pointTeamTitle: ["Wir sind ein Team", "We are a team", "Мы — команда", "Ми — команда"],
   pointTeamCopy: [
-    "Einander helfen und gemeinsam aufmerksam trainieren.",
-    "Support one another and train with care for your partners.",
-    "Помогать друг другу и заботиться о партнёрах на тренировке.",
-    "Допомагати одне одному й дбати про партнерів під час тренування."
+    "Trainingspartner:innen helfen und unterstützen sich gegenseitig. Dabei achten sie darauf, dass niemand verletzt wird – unabhängig von Alter, Größe oder Sympathie.",
+    "Help and support training partners, and keep them safe regardless of age, size or how much you like them.",
+    "Помогать партнёрам и заботиться об их безопасности независимо от возраста, роста или личных симпатий.",
+    "Допомагати партнерам і дбати про їхню безпеку незалежно від віку, зросту чи особистих симпатій."
   ],
-  newsEyebrow: ["Aus unserem Vereinsarchiv", "From our club archive", "Из архива клуба", "З архіву клубу"],
-  newsTitle: ["Erfolge, die verbinden.", "Achievements that bring us together.", "Достижения, которые объединяют.", "Досягнення, що об’єднують."],
+  newsEyebrow: ["News", "News", "Новости", "Новини"],
+  newsTitle: ["Turnierergebnisse", "Tournament results", "Результаты турниров", "Результати турнірів"],
   newsIntro: [
-    "Ein Rückblick auf Turniere und Erfolge aus den Jahren 2022 und 2023.",
-    "A look back at tournaments and achievements from 2022 and 2023.",
-    "Вспоминаем турниры и достижения 2022 и 2023 годов.",
-    "Згадуємо турніри та досягнення 2022 і 2023 років."
+    "Berichte des Judo-Teams Bruchhausen-Vilsen aus den Jahren 2022 und 2023.",
+    "Judo-Team Bruchhausen-Vilsen reports from 2022 and 2023.",
+    "Новости Judo-Team Bruchhausen-Vilsen за 2022 и 2023 годы.",
+    "Новини Judo-Team Bruchhausen-Vilsen за 2022 та 2023 роки."
   ],
   newsRankingTitle: ["Kreis-Ranglistenturnier", "District ranking tournament", "Рейтинговый турнир округа", "Рейтинговий турнір округу"],
   newsRankingCopy: [
-    "Acht Judoka starteten in den Altersklassen U9, U11 und U15. Das Team holte sechs Gold- und zwei Silbermedaillen.",
-    "Eight judoka competed in the U9, U11 and U15 age groups. The team won six gold and two silver medals.",
-    "В соревнованиях в категориях U9, U11 и U15 участвовали восемь дзюдоистов. Команда завоевала шесть золотых и две серебряные медали.",
-    "У змаганнях у категоріях U9, U11 та U15 виступили вісім дзюдоїстів. Команда здобула шість золотих і дві срібні медалі."
+    "Beim Ranglistenturnier des Kreisfachverbands in Barnstorf starteten acht Judoka unseres Teams in U9, U11 und U15. Sie holten sechs Gold- und zwei Silbermedaillen.",
+    "Eight judoka from our team competed in U9, U11 and U15 at the district ranking tournament hosted by MTV Barnstorf. They won six gold and two silver medals.",
+    "На рейтинговом турнире районной федерации в Барнсторфе выступили восемь дзюдоистов нашей команды в категориях U9, U11 и U15. Они завоевали шесть золотых и две серебряные медали.",
+    "На рейтинговому турнірі районної федерації в Барнсторфі виступили вісім дзюдоїстів нашої команди у категоріях U9, U11 та U15. Вони здобули шість золотих і дві срібні медалі."
   ],
   newsOytinchenTitle: ["Oytinchen Cup", "Oytinchen Cup", "Кубок Oytinchen", "Кубок Oytinchen"],
   newsOytinchenCopy: [
     "Bei einem Turnier mit rund 250 Kindern erkämpfte das Team eine Gold-, zwei Silber- und drei Bronzemedaillen.",
     "At a tournament with around 250 children, the team earned one gold, two silver and three bronze medals.",
-    "На турнире примерно с 250 участниками команда завоевала одну золотую, две серебряные и три бронзовые медали.",
-    "На турнірі приблизно з 250 учасниками команда здобула одну золоту, дві срібні та три бронзові медалі."
+    "На турнире примерно с 250 детьми команда завоевала одну золотую, две серебряные и три бронзовые медали.",
+    "На турнірі приблизно з 250 дітьми команда здобула одну золоту, дві срібні та три бронзові медалі."
   ],
   newsNewcomerTitle: ["Newcomer Cup in Bremen", "Newcomer Cup in Bremen", "Newcomer Cup в Бремене", "Newcomer Cup у Бремені"],
   newsNewcomerCopy: [
-    "Beim ersten Turnier für alle teilnehmenden Kinder aus U9, U11 und U13 gab es zwei Gold-, zwei Silber- und vier Bronzemedaillen.",
-    "At their first tournament, the children competing in U9, U11 and U13 won two gold, two silver and four bronze medals.",
-    "На первом турнире для всех детей команды в категориях U9, U11 и U13 завоевали две золотые, две серебряные и четыре бронзовые медали.",
-    "На першому турнірі для всіх дітей команди в категоріях U9, U11 та U13 здобули дві золоті, дві срібні та чотири бронзові медалі."
+    "Unsere Kinder starteten beim Newcomer Cup in Bremen in den Altersklassen U9, U11 und U13. Für alle war es das erste Turnier. Sie holten zwei Gold-, zwei Silber- und vier Bronzemedaillen.",
+    "Our children competed in U9, U11 and U13 at the Newcomer Cup in Bremen. It was the first tournament for every child, and the team won two gold, two silver and four bronze medals.",
+    "На турнире Newcomer Cup в Бремене выступили наши дети в категориях U9, U11 и U13. Для каждого это был первый турнир. Команда завоевала две золотые, две серебряные и четыре бронзовые медали.",
+    "На турнірі Newcomer Cup у Бремені виступили наші діти у категоріях U9, U11 та U13. Для кожного це був перший турнір. Команда здобула дві золоті, дві срібні та чотири бронзові медалі."
   ],
   newsElephantTitle: ["International Elephant Cup", "International Elephant Cup", "International Elephant Cup", "International Elephant Cup"],
   newsElephantCopy: [
-    "Janine Schmitz gewann Gold und bezwang im Finale eine Athletin, die bei den Deutschen Meisterschaften Bronze geholt hatte.",
-    "Janine Schmitz won gold, defeating in the final an athlete who had earned bronze at the German Championships.",
-    "Janine Schmitz завоевала золото, победив в финале спортсменку, ранее получившую бронзу на чемпионате Германии.",
-    "Janine Schmitz здобула золото, перемігши у фіналі спортсменку, яка раніше виборола бронзу на чемпіонаті Німеччини."
+    "Beim International Elephant Cup in Schleswig-Holstein gewann Janine Schmitz Gold. Im Finale besiegte sie die Drittplatzierte der Deutschen Meisterschaft.",
+    "At the International Elephant Cup in Schleswig-Holstein, Janine Schmitz won gold. In the final, she defeated the bronze medallist from the German Championships.",
+    "На международном турнире International Elephant Cup в Шлезвиг-Гольштейне Janine Schmitz завоевала золото. В финале она победила бронзовую призёрку чемпионата Германии.",
+    "На міжнародному турнірі International Elephant Cup у Шлезвіг-Гольштейні Janine Schmitz здобула золото. У фіналі вона перемогла бронзову призерку чемпіонату Німеччини."
   ],
-  newsChampionshipTitle: ["Erfolge auf Landes- und Bundesebene", "Success at state and national level", "Успехи на уровне земли и страны", "Успіхи на рівні землі та країни"],
+  newsChampionshipTitle: ["Janines Meisterschaftsergebnisse", "Janine’s championship results", "Результаты Janine на чемпионатах", "Результати Janine на чемпіонатах"],
   newsChampionshipCopy: [
-    "Nach dem Landesmeistertitel gewann Janine Schmitz Bronze bei den Norddeutschen Meisterschaften und belegte bei den Deutschen Meisterschaften den siebten Platz.",
-    "After winning the state title, Janine Schmitz took bronze at the North German Championships and placed seventh at the German Championships.",
-    "После победы на чемпионате земли Janine Schmitz завоевала бронзу на чемпионате Северной Германии и заняла седьмое место на чемпионате Германии.",
-    "Після перемоги на чемпіонаті землі Janine Schmitz здобула бронзу на чемпіонаті Північної Німеччини та посіла сьоме місце на чемпіонаті Німеччини."
+    "Als Landesmeisterin vertrat Janine Schmitz Bremen bei den Norddeutschen Meisterschaften und gewann Bronze. Bei den Deutschen Meisterschaften belegte sie den siebten Platz.",
+    "As state champion, Janine Schmitz represented Bremen at the North German Championships and won bronze. She placed seventh at the German Championships.",
+    "Став чемпионкой земли, Janine Schmitz представляла Бремен на чемпионате Северной Германии и завоевала бронзу. На чемпионате Германии она заняла седьмое место.",
+    "Ставши чемпіонкою землі, Janine Schmitz представляла Бремен на чемпіонаті Північної Німеччини та здобула бронзу. На чемпіонаті Німеччини вона посіла сьоме місце."
   ],
-  tryEyebrow: ["Dein erster Schritt", "Your first step", "Твой первый шаг", "Твій перший крок"],
-  tryTitleFirst: ["Einfach mal", "Why not", "Просто", "Просто"],
-  tryTitleSecond: ["ausprobieren.", "give it a try?", "попробовать.", "спробуй."],
+  tryEyebrow: ["Probetraining", "Trial training", "Пробная тренировка", "Пробне тренування"],
+  tryTitleFirst: ["Ohne Anmeldung", "No booking", "Без записи", "Без попереднього запису"],
+  tryTitleSecond: ["zum Training.", "needed.", "на тренировку.", "на тренування."],
   tryCopy: [
-    "Du möchtest Judo kennenlernen? Komm ohne Anmeldung mittwochs oder freitags um 16 Uhr in die Große Schulsporthalle (Auf der Loge). Drei Probetrainings sind möglich, bevor du Vereinsmitglied werden musst. Vorkenntnisse brauchst du nicht.",
-    "Want to try judo? Just come without booking to the large school sports hall (Auf der Loge) on Wednesday or Friday at 4 pm. You can try three sessions before club membership is required. No experience needed.",
-    "Хочешь познакомиться с дзюдо? Приходи без записи в большой школьный спортзал (Auf der Loge) в среду или пятницу к 16:00. Можно посетить три пробные тренировки до вступления в клуб. Опыт не нужен.",
-    "Хочеш познайомитися з дзюдо? Приходь без попереднього запису до великої шкільної спортивної зали (Auf der Loge) у середу або п’ятницю о 16:00. Можна відвідати три пробні тренування до вступу в клуб. Досвід не потрібен."
+    "Pack deine normalen Sportsachen ein und komm mittwochs oder freitags um 16:00 Uhr in die Große Sporthalle am Schulzentrum. Du kannst dreimal zum Testen kommen, bevor du in den Verein eintreten musst.",
+    "Bring your regular sports clothes and come to the large sports hall at the school campus on Wednesday or Friday at 4 pm. You can try three sessions before joining the club.",
+    "Возьми обычную спортивную одежду и приходи в большой спортивный зал у школы в среду или пятницу к 16:00. Можно прийти на пробную тренировку три раза, прежде чем вступать в клуб.",
+    "Візьми звичайний спортивний одяг і приходь до великої спортивної зали біля школи у середу або п’ятницю о 16:00. Можна прийти на пробне тренування тричі, перш ніж вступати до клубу."
   ],
-  tryContact: ["Fragen? Schreib uns", "Questions? Get in touch", "Есть вопросы? Напиши нам", "Є запитання? Напиши нам"],
-  cardKicker: ["GUT ZU WISSEN", "GOOD TO KNOW", "ПОЛЕЗНО ЗНАТЬ", "КОРИСНО ЗНАТИ"],
-  cardTitleFirst: ["Das brauchst du", "What you need", "Что понадобится", "Що знадобиться"],
-  cardTitleSecond: ["für den Anfang.", "to get started.", "для начала.", "для початку."],
-  cardItemOne: ["Bequeme Sportkleidung", "Comfortable sportswear", "Удобная спортивная одежда", "Зручний спортивний одяг"],
-  cardItemTwo: ["Eine Trinkflasche", "A water bottle", "Бутылка воды", "Пляшка води"],
-  cardItemThree: ["Offenheit, Neues zu lernen", "An open mind", "Готовность учиться новому", "Відкритість до нового"],
+  tryContact: ["Kontakt", "Contact", "Контакты", "Контакти"],
+  cardKicker: ["Probetraining", "Trial training", "Пробная тренировка", "Пробне тренування"],
+  cardTitleFirst: ["So läuft das", "How trial", "Как проходит", "Як проходить"],
+  cardTitleSecond: ["Probetraining ab.", "training works.", "пробная тренировка.", "пробне тренування."],
+  cardItemOne: ["Normale Sportsachen", "Regular sports clothes", "Обычная спортивная одежда", "Звичайний спортивний одяг"],
+  cardItemTwo: ["Keine Anmeldung nötig", "No booking needed", "Запись не нужна", "Запис не потрібен"],
+  cardItemThree: ["Dreimal zum Testen kommen", "Try three sessions", "Три пробные тренировки", "Три пробні тренування"],
   cardCopy: [
-    "Drei Probetrainings kannst du unverbindlich mitmachen; danach ist für weiteres Training eine Vereinsmitgliedschaft nötig.",
-    "You can attend three trial sessions; club membership is required to continue training after that.",
-    "Можно посетить три пробные тренировки; для дальнейших занятий потребуется вступить в клуб.",
-    "Можна відвідати три пробні тренування; для подальших занять потрібно буде вступити до клубу."
+    "Danach ist für weiteres Training der Eintritt in den Verein nötig.",
+    "Joining the club is required to continue training after that.",
+    "После этого для дальнейших тренировок нужно вступить в клуб.",
+    "Після цього для подальших тренувань потрібно вступити до клубу."
   ],
-  contactEyebrow: ["Wir freuen uns auf dich", "We’d love to meet you", "Будем рады знакомству", "Будемо раді знайомству"],
-  contactTitleFirst: ["Dein Platz auf", "Your place", "Твоё место", "Твоє місце"],
-  contactTitleSecond: ["der Matte wartet.", "on the mat is waiting.", "на татами ждёт тебя.", "на татамі чекає на тебе."],
+  contactEyebrow: ["Kontakt", "Contact", "Контакты", "Контакти"],
+  contactTitleFirst: ["Schreib", "Write", "Напиши", "Напиши"],
+  contactTitleSecond: ["uns!", "to us!", "нам!", "нам!"],
   contactCopy: [
-    "Du hast Fragen zum Training oder möchtest erst einmal reinschnuppern? Nimm Kontakt mit dem Verein auf – wir helfen dir gerne weiter.",
-    "Have questions about training, or want to come and see what it’s like? Contact the club and we’ll be happy to help.",
-    "Есть вопросы о тренировках или хочешь сначала посмотреть? Свяжись с клубом — мы с радостью поможем.",
-    "Маєш запитання про тренування або хочеш спершу подивитися? Зв’яжися з клубом — ми радо допоможемо."
+    "Bei Fragen zum Training oder Probetraining erreichst du Jacqueline Schumann telefonisch oder per E-Mail.",
+    "For questions about training or a trial session, contact Jacqueline Schumann by phone or email.",
+    "По вопросам о тренировках или пробном занятии свяжись с Jacqueline Schumann по телефону или электронной почте.",
+    "Із запитаннями про тренування або пробне заняття звертайся до Jacqueline Schumann телефоном або електронною поштою."
   ],
   contactDetailsTitle: ["Vereinsleitung", "Club leader", "Руководитель клуба", "Керівниця клубу"],
   contactPerson: ["Frau Jacqueline Schumann", "Mrs Jacqueline Schumann", "Г-жа Jacqueline Schumann", "Пані Jacqueline Schumann"],
   phoneLabel: ["Telefon", "Phone", "Телефон", "Телефон"],
   emailLabel: ["E-Mail", "Email", "Эл. почта", "Е-пошта"],
   contactNote: [
-    "Fragen zu Trainingszeiten? Wende dich direkt an die Vereinsleitung.",
-    "Questions about training times? Contact the club leader directly.",
-    "Есть вопросы о расписании? Свяжись напрямую с руководителем клуба.",
-    "Є запитання про розклад? Звернися безпосередньо до керівниці клубу."
+    "Jacqueline Schumann ist die Ansprechpartnerin der Vereinsleitung.",
+    "Jacqueline Schumann is the club leadership contact.",
+    "Jacqueline Schumann — контактное лицо руководства клуба.",
+    "Jacqueline Schumann — контактна особа керівництва клубу."
   ],
-  footerTagline: ["Respekt. Bewegung. Miteinander.", "Respect. Movement. Together.", "Уважение. Движение. Единство.", "Повага. Рух. Єдність."],
+  footerTagline: [
+    "Seit über 30 Jahren Judo in Bruchhausen-Vilsen.",
+    "Judo in Bruchhausen-Vilsen for over 30 years.",
+    "Дзюдо в Брукхаузен-Фильзене более 30 лет.",
+    "Дзюдо в Брукгаузен-Фільзені понад 30 років."
+  ],
   backToTop: ["Zurück nach oben", "Back to top", "Наверх", "На початок"]
 };
 
