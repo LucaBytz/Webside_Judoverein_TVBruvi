@@ -64,16 +64,11 @@ button {
   gap: 11px;
 }
 
-.brand-mark {
-  display: grid;
-  width: 38px;
-  height: 38px;
-  place-items: center;
-  background: var(--orange);
-  color: white;
-  font-family: "Manrope", sans-serif;
-  font-size: 23px;
-  font-weight: 700;
+.brand-logo {
+  display: block;
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
 }
 
 .brand-name {
@@ -901,10 +896,9 @@ h2 {
   padding: 20px 7.2%;
 }
 
-.footer-brand .brand-mark {
-  width: 33px;
-  height: 33px;
-  font-size: 20px;
+.footer-brand .brand-logo {
+  width: 48px;
+  height: 48px;
 }
 
 .footer-brand .brand-name {

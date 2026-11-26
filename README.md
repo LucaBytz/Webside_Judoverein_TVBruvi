@@ -21,5 +21,5 @@ connection is available and falls back to system sans-serif fonts otherwise.
 - The small-screen navigation and footer year are handled in `script.js`.
 
 Club details were adapted from the [Judo-Team Bruchhausen-Vilsen website](https://judovilsen.jimdofree.com/).
-The photographs in `assets/` are from that site and are stored locally so the
-page does not depend on Jimdo image URLs.
+The logo and photographs in `assets/` are from that site and are stored locally
+so the page does not depend on Jimdo image URLs.
