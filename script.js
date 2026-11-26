@@ -62,11 +62,6 @@ const translations = {
     "ДЗЮДО БОЛЕЕ 30 ЛЕТ",
     "ДЗЮДО ПОНАД 30 РОКІВ"
   ],
-  valuesLabel: ["Trainingsschwerpunkte", "Training focus", "Направления тренировок", "Напрями тренувань"],
-  valueRespect: ["Motorik", "Motor skills", "Моторика", "Моторика"],
-  valueCourage: ["Disziplin", "Discipline", "Дисциплина", "Дисципліна"],
-  valueTogether: ["Teamgeist", "Teamwork", "Командный дух", "Командний дух"],
-  valueMovement: ["Selbstverteidigung", "Self-defence", "Самооборона", "Самозахист"],
   introEyebrow: ["Über uns", "About us", "О нас", "Про нас"],
   introCopyFirst: [
     "Ob Gürtelprüfungen, Selbstverteidigung, Beweglichkeit oder Wettkampfjudo: Unser gut ausgebildetes Trainerteam unterstützt dich bei deinen Zielen.",
