@@ -179,7 +179,7 @@ button {
   padding: 10px 14px;
   border-bottom: 0;
   background: var(--ink);
-  color: var(--paper);
+  color: var(--orange);
   font-size: 13px;
   white-space: nowrap;
 }

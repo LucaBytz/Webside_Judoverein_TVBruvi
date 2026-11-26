@@ -115,6 +115,12 @@ const translations = {
   ],
   mapLink: ["In Google Maps öffnen", "Open in Google Maps", "Открыть в Google Maps", "Відкрити в Google Maps"],
   judoEyebrow: ["Was ist Judo?", "What is judo?", "Что такое дзюдо?", "Що таке дзюдо?"],
+  judoCopy: [
+    "Jeder Judoverein hat seine eigene Idee vom Judo. Unser Training basiert auf fünf Aspekten:",
+    "Every judo club has its own approach to judo. Our training is based on five aspects:",
+    "У каждого клуба дзюдо свой подход. Наши тренировки основаны на пяти аспектах:",
+    "Кожен клуб дзюдо має свій підхід. Наші тренування ґрунтуються на п’яти аспектах:"
+  ],
   pointTechniqueTitle: ["Technischer Aspekt", "Technical aspect", "Технический аспект", "Технічний аспект"],
   pointTechniqueCopy: [
     "Eigene Kräfte und Körpergewicht effizient einsetzen und die Bewegung des Gegenübers nutzen. Dafür braucht es Körpergefühl, Koordination und Gleichgewicht.",
