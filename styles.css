@@ -100,8 +100,8 @@ button {
 
 .language-picker select {
   min-height: 42px;
-  padding: 0 30px 0 12px;
-  border: 1px solid var(--line);
+  padding: 0 18px 0 0;
+  border: 0;
   border-radius: 0;
   background: transparent;
   color: var(--ink);
@@ -109,7 +109,7 @@ button {
   cursor: pointer;
 }
 
-.navigation > a:not(.nav-cta):hover,
+.navigation > a:hover,
 .text-link:hover,
 .back-to-top:hover {
   color: var(--orange-dark);
@@ -118,12 +118,11 @@ button {
 .nav-cta {
   display: inline-flex;
   align-items: center;
-  gap: 20px;
-  padding: 13px 17px;
-  border: 1px solid var(--ink);
+  gap: 8px;
+  padding: 0;
 }
 
-.nav-cta span {
+.nav-cta > span[aria-hidden="true"] {
   color: var(--orange);
   font-size: 17px;
 }
@@ -1017,7 +1016,7 @@ h2 {
     flex-direction: column;
   }
 
-  .navigation > a:not(.nav-cta) {
+  .navigation > a {
     padding: 13px 0;
     border-bottom: 1px solid var(--line);
   }
@@ -1030,10 +1029,6 @@ h2 {
     width: 100%;
   }
 
-  .nav-cta {
-    justify-content: space-between;
-    margin-top: 13px;
-  }
 }
 
 @media (max-width: 700px) {
