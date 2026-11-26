@@ -11,18 +11,6 @@ const translations = {
     "Judo-Team Bruchhausen-Vilsen: дзюдо более 30 лет, более 80 зарегистрированных дзюдоистов и тренировки с 4 лет.",
     "Judo-Team Bruchhausen-Vilsen: дзюдо понад 30 років, понад 80 зареєстрованих дзюдоїстів і тренування від 4 років."
   ],
-  resultsPageTitle: [
-    "Turnierergebnisse | Judo-Team Bruchhausen-Vilsen",
-    "Competition results | Judo-Team Bruchhausen-Vilsen",
-    "Результаты турниров | Judo-Team Bruchhausen-Vilsen",
-    "Результати змагань | Judo-Team Bruchhausen-Vilsen"
-  ],
-  resultsPageDescription: [
-    "Turnierberichte des Judo-Teams Bruchhausen-Vilsen aus den Jahren 2022 und 2023.",
-    "Competition reports from Judo-Team Bruchhausen-Vilsen in 2022 and 2023.",
-    "Отчёты о соревнованиях Judo-Team Bruchhausen-Vilsen за 2022 и 2023 годы.",
-    "Звіти про змагання Judo-Team Bruchhausen-Vilsen за 2022 і 2023 роки."
-  ],
   brandHome: [
     "Judo-Team Bruchhausen-Vilsen – Startseite",
     "Judo-Team Bruchhausen-Vilsen – Home",
@@ -35,7 +23,7 @@ const translations = {
   navClub: ["Über uns", "About us", "О нас", "Про нас"],
   navJudo: ["Darum Judo", "Why judo", "Почему дзюдо", "Чому дзюдо"],
   navTraining: ["Trainingszeiten", "Training times", "Расписание", "Розклад"],
-  navResults: ["News", "News", "Новости", "Новини"],
+  navNews: ["News", "News", "Новости", "Новини"],
   navTry: ["Probetraining", "Trial training", "Пробная тренировка", "Пробне тренування"],
   navContact: ["Kontakt", "Contact", "Контакты", "Контакти"],
   languageSelector: ["Sprache auswählen", "Choose language", "Выбрать язык", "Обрати мову"],
@@ -80,13 +68,6 @@ const translations = {
   valueTogether: ["Teamgeist", "Teamwork", "Командный дух", "Командний дух"],
   valueMovement: ["Selbstverteidigung", "Self-defence", "Самооборона", "Самозахист"],
   introEyebrow: ["Über uns", "About us", "О нас", "Про нас"],
-  introTitleFirst: ["Seit über 30 Jahren", "For over 30 years", "Более 30 лет", "Понад 30 років"],
-  introTitleSecond: [
-    "Judo in Bruchhausen-Vilsen.",
-    "judo in Bruchhausen-Vilsen.",
-    "дзюдо в Брукхаузен-Фильзене.",
-    "дзюдо у Брукгаузен-Фільзені."
-  ],
   introCopyFirst: [
     "Ob Gürtelprüfungen, Selbstverteidigung, Beweglichkeit oder Wettkampfjudo: Unser gut ausgebildetes Trainerteam unterstützt dich bei deinen Zielen.",
     "Whether you want to earn belts, learn self-defence, improve mobility or compete, our qualified coaches support your goals.",
@@ -99,15 +80,7 @@ const translations = {
     "Дзюдо существует в Брукхаузен-Фильзене более 30 лет. Сегодня в команде более 80 зарегистрированных дзюдоистов.",
     "Дзюдо існує в Брукгаузен-Фільзені понад 30 років. Сьогодні в команді понад 80 зареєстрованих дзюдоїстів."
   ],
-  introJoin: ["Trainingszeiten ansehen", "See training times", "Расписание тренировок", "Розклад тренувань"],
-  teamEyebrow: ["Unser Trainerteam", "Our coaching team", "Наша команда тренеров", "Наша команда тренерів"],
   teamTitle: ["Unsere Trainer", "Our coaches", "Наши тренеры", "Наші тренери"],
-  teamIntro: [
-    "Trainer:innen mit Wettkampferfahrung, Lizenzen und Dan-Grad.",
-    "Coaches with competition experience, qualifications and a Dan grade.",
-    "Тренеры с соревновательным опытом, лицензиями и даном.",
-    "Тренери зі змагальним досвідом, ліцензіями та даном."
-  ],
   patrickRole: ["Trainer für Jugendliche und Erwachsene", "Coach for teens and adults", "Тренер подростков и взрослых", "Тренер для підлітків і дорослих"],
   patrickCredentialOne: ["Ehemaliger Wettkämpfer", "Former competitor", "Бывший участник соревнований", "Колишній учасник змагань"],
   patrickCredentialTwo: ["Norddeutscher Meister und Landesmeister", "North German and state champion", "Чемпион Северной Германии и земли", "Чемпіон Північної Німеччини та землі"],
@@ -116,15 +89,6 @@ const translations = {
   jacquelineCredentialOne: ["Aktive Wettkämpferin und Landesmeisterin", "Active competitor and state champion", "Действующая спортсменка, чемпионка земли", "Активна спортсменка та чемпіонка землі"],
   jacquelineCredentialTwo: ["Trainer-C-Lizenz", "Trainer C licence", "Лицензия тренера категории C", "Ліцензія тренера категорії C"],
   jacquelineCredentialThree: ["Dan-Trägerin (1. Dan)", "1st Dan black belt", "Чёрный пояс, 1-й дан", "Чорний пояс, 1-й дан"],
-  janineRole: ["Trainerin für Kinder und Jugendliche", "Coach for children and teens", "Тренер детей и подростков", "Тренерка дітей і підлітків"],
-  janineCredentialOne: ["Aktive Wettkämpferin in der Regionalliga", "Active competitor in the regional league", "Действующая спортсменка региональной лиги", "Активна спортсменка регіональної ліги"],
-  janineCredentialTwo: [
-    "Landesmeisterin · 3. Platz Norddeutsche Meisterschaft · 7. Platz Deutsche Meisterschaft",
-    "State champion · 3rd at the North German Championships · 7th at the German Championships",
-    "Чемпионка земли · 3-е место на чемпионате Северной Германии · 7-е место на чемпионате Германии",
-    "Чемпіонка землі · 3-тє місце на чемпіонаті Північної Німеччини · 7-ме місце на чемпіонаті Німеччини"
-  ],
-  janineCredentialThree: ["Trainerassistenz A · 1. Kyu", "Trainer assistant A · 1st Kyu", "Ассистент тренера A · 1-й кю", "Асистент тренера A · 1-й кю"],
   leadershipTitle: ["Spartenleitung", "Judo section leadership", "Руководство секцией", "Керівництво секцією"],
   leadershipCopy: [
     "Jacqueline Schumann, Ines Kämmerer und Stephanie Schmitz – unterstützt von engagierten Eltern.",
@@ -170,7 +134,6 @@ const translations = {
     "Официальный сайт команды дзюдо",
     "Офіційний сайт команди з дзюдо"
   ],
-  judoStamp: ["FÜNF ASPEKTE DES JUDO", "FIVE ASPECTS OF JUDO", "ПЯТЬ АСПЕКТОВ ДЗЮДО", "П’ЯТЬ АСПЕКТІВ ДЗЮДО"],
   judoEyebrow: ["Was ist Judo?", "What is judo?", "Что такое дзюдо?", "Що таке дзюдо?"],
   judoTitleFirst: ["Unser Training basiert auf", "Our training is based on", "Наши тренировки основаны на", "Наші тренування ґрунтуються на"],
   judoTitleSecond: ["fünf Aspekten.", "five aspects.", "пяти аспектах.", "п’яти аспектах."],

@@ -6,17 +6,17 @@ build step or runtime dependencies.
 
 ## Run locally
 
-Open `index.html` in a browser. Tournament reports are available from the
-navigation in `turnierergebnisse.html`. The pages use Google Fonts when an
-internet connection is available and fall back to system sans-serif fonts otherwise.
+Open `index.html` in a browser. Tournament reports appear in the News section
+between Probetraining and Kontakt. The site uses Google Fonts when an internet
+connection is available and falls back to system sans-serif fonts otherwise.
 
 ## Customize
 
 - Update club copy, training times, venue, contact details, and club links in
   `index.html`.
-- Trainer profiles, the club leadership team, the judo principles, and
-  trial-session information are in `index.html`; the 2022–2023 competition
-  archive is in `turnierergebnisse.html`.
+- Trainer profiles, the club leadership team, the judo principles,
+  trial-session information, and the 2022–2023 competition archive are in
+  `index.html`.
 - Edit all German, English, Russian, and Ukrainian language strings in
   `script.js`.
 - Adjust colors, layout, and responsive styles in `styles.css`.
