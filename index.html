@@ -7,8 +7,9 @@
     <meta
       name="description"
       content="Judo beim TV Bruvi: gemeinsam lernen, trainieren und über sich hinauswachsen."
+      data-i18n-content="pageDescription"
     >
-    <title>Judo beim TV Bruvi</title>
+    <title data-i18n="pageTitle">Judo beim TV Bruvi</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -20,7 +21,7 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#start" aria-label="TV Bruvi Judo – Startseite">
+      <a class="brand" href="#start" aria-label="TV Bruvi Judo – Startseite" data-i18n-aria-label="brandHome">
         <span class="brand-mark" aria-hidden="true">柔</span>
         <span class="brand-name">TV BRUVI <span>JUDO</span></span>
       </a>
@@ -31,44 +32,53 @@
         aria-expanded="false"
         aria-controls="primary-navigation"
       >
-        <span class="sr-only">Menü öffnen</span>
+        <span class="sr-only" data-i18n="menuOpen">Menü öffnen</span>
         <span></span>
         <span></span>
       </button>
 
-      <nav class="navigation" id="primary-navigation" aria-label="Hauptnavigation">
-        <a href="#verein">Verein</a>
-        <a href="#judo">Judo</a>
-        <a href="#mitmachen">Mitmachen</a>
-        <a class="nav-cta" href="#kontakt">Kontakt <span aria-hidden="true">↗</span></a>
+      <nav class="navigation" id="primary-navigation" aria-label="Hauptnavigation" data-i18n-aria-label="navLabel">
+        <a href="#verein" data-i18n="navClub">Verein</a>
+        <a href="#judo" data-i18n="navJudo">Judo</a>
+        <a href="#mitmachen" data-i18n="navTry">Mitmachen</a>
+        <a class="nav-cta" href="#kontakt"><span data-i18n="navContact">Kontakt</span> <span aria-hidden="true">↗</span></a>
+        <label class="language-picker">
+          <span class="sr-only" data-i18n="languageSelector">Sprache auswählen</span>
+          <select id="language-selector" aria-label="Sprache auswählen" data-i18n-aria-label="languageSelector">
+            <option value="de">Deutsch</option>
+            <option value="en">English</option>
+            <option value="ru">Русский</option>
+            <option value="uk">Українська</option>
+          </select>
+        </label>
       </nav>
     </header>
 
     <main>
       <section class="hero" id="start">
         <div class="hero-copy">
-          <p class="eyebrow"><span></span> Judo beim TV Bruvi</p>
-          <h1>Stark werden.<br><span>Zusammen wachsen.</span></h1>
-          <p class="hero-description">
+          <p class="eyebrow"><span></span><span data-i18n="heroEyebrow">Judo beim TV Bruvi</span></p>
+          <h1><span class="hero-title-line" data-i18n="heroTitleFirst">Stark werden.</span><br><span class="hero-accent" data-i18n="heroTitleSecond">Zusammen wachsen.</span></h1>
+          <p class="hero-description" data-i18n="heroDescription">
             Judo ist mehr als ein Sport. Es ist Bewegung, Respekt und das gute
             Gefühl, gemeinsam etwas zu schaffen.
           </p>
           <div class="hero-actions">
-            <a class="button button-dark" href="#mitmachen">Lerne uns kennen <span aria-hidden="true">→</span></a>
-            <a class="text-link" href="#judo">Was ist Judo? <span aria-hidden="true">↓</span></a>
+            <a class="button button-dark" href="#mitmachen"><span data-i18n="heroJoin">Lerne uns kennen</span> <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="#judo"><span data-i18n="heroLearn">Was ist Judo?</span> <span aria-hidden="true">↓</span></a>
           </div>
           <div class="hero-note">
             <span class="note-icon" aria-hidden="true">✳</span>
-            <p>Für Einsteiger:innen und<br>alle, die in Bewegung bleiben wollen.</p>
+            <p><span data-i18n="heroNoteFirst">Für Anfänger:innen und</span><br><span data-i18n="heroNoteSecond">alle, die in Bewegung bleiben wollen.</span></p>
           </div>
         </div>
 
-        <div class="hero-art" aria-label="Illustration von zwei Judoka beim Training">
+        <div class="hero-art" aria-label="Illustration von zwei Judoka beim Training" data-i18n-aria-label="heroArt">
           <div class="art-sun"></div>
           <div class="art-circle"></div>
           <div class="art-label">JU<br>DO</div>
           <svg class="judoka" viewBox="0 0 620 590" role="img" aria-labelledby="judoka-title">
-            <title id="judoka-title">Zwei Judoka in einer dynamischen Trainingsbewegung</title>
+            <title id="judoka-title" data-i18n="judokaTitle">Zwei Judoka in einer dynamischen Trainingsbewegung</title>
             <path class="figure-back" d="M383 105c35-30 83-16 98 18 11 25-2 49-18 65l-35 33 51 49-36 53-73-62-38-48 38-79 13-29Z"/>
             <path class="figure-back" d="m423 196 89 17 42 46-22 21-55-26-52 8-2-66Z"/>
             <path class="figure-back" d="m469 303 45 9 10 92-26 57-30-10 11-54-29-44 19-50Z"/>
@@ -87,34 +97,34 @@
             <path class="hair-front" d="M169 104c3-29 25-46 51-41 19 4 28 17 30 34-16-10-28-13-41-10-12 3-23 10-40 17Z"/>
             <path class="hair-back" d="M393 83c2-27 21-43 43-39 19 3 29 17 30 33-14-10-27-12-39-9-13 3-22 10-34 15Z"/>
           </svg>
-          <div class="art-caption"><span>01</span> Respekt · Bewegung · Miteinander</div>
+          <div class="art-caption"><span>01</span> <span data-i18n="heroCaption">Respekt · Bewegung · Miteinander</span></div>
         </div>
-        <div class="hero-side-note" aria-hidden="true">JUDO — GEMEINSAM IN BEWEGUNG</div>
+        <div class="hero-side-note" aria-hidden="true" data-i18n="heroSideNote">JUDO — GEMEINSAM IN BEWEGUNG</div>
       </section>
 
-      <section class="values" aria-label="Werte im Judo">
-        <p><span>01</span> Respekt</p>
-        <p><span>02</span> Mut</p>
-        <p><span>03</span> Miteinander</p>
-        <p><span>04</span> Bewegung</p>
+      <section class="values" aria-label="Werte im Judo" data-i18n-aria-label="valuesLabel">
+        <p><span>01</span> <span data-i18n="valueRespect">Respekt</span></p>
+        <p><span>02</span> <span data-i18n="valueCourage">Mut</span></p>
+        <p><span>03</span> <span data-i18n="valueTogether">Miteinander</span></p>
+        <p><span>04</span> <span data-i18n="valueMovement">Bewegung</span></p>
       </section>
 
       <section class="intro section-wrap" id="verein">
         <div>
-          <p class="eyebrow"><span></span> Schön, dass du da bist</p>
-          <h2>Ein Platz auf der Matte<br>ist immer frei.</h2>
+          <p class="eyebrow"><span></span><span data-i18n="introEyebrow">Schön, dass du da bist</span></p>
+          <h2><span data-i18n="introTitleFirst">Ein Platz auf der Matte</span><br><span data-i18n="introTitleSecond">ist immer frei.</span></h2>
         </div>
         <div class="intro-copy">
-          <p>
+          <p data-i18n="introCopyFirst">
             Beim Judo treffen Bewegung und Gemeinschaft aufeinander. Wir üben
             miteinander, lernen voneinander und gehen Schritt für Schritt
             unseren eigenen Weg.
           </p>
-          <p>
+          <p data-i18n="introCopySecond">
             Ob du gerade erst anfängst oder schon Erfahrung mitbringst:
             Neugier genügt für den ersten Schritt.
           </p>
-          <a class="text-link" href="#kontakt">Komm vorbei <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="#kontakt"><span data-i18n="introJoin">Komm vorbei</span> <span aria-hidden="true">→</span></a>
         </div>
       </section>
 
@@ -122,20 +132,20 @@
         <div class="section-wrap judo-layout">
           <div class="judo-stamp" aria-hidden="true">
             <span>柔</span>
-            <small>DER SANFTE WEG</small>
+            <small data-i18n="judoStamp">DER SANFTE WEG</small>
           </div>
           <div class="judo-copy">
-            <p class="eyebrow eyebrow-light"><span></span> Mehr als Technik</p>
-            <h2>Judo heißt,<br>miteinander besser werden.</h2>
-            <p>
+            <p class="eyebrow eyebrow-light"><span></span><span data-i18n="judoEyebrow">Mehr als Technik</span></p>
+            <h2><span data-i18n="judoTitleFirst">Judo heißt,</span><br><span data-i18n="judoTitleSecond">miteinander besser werden.</span></h2>
+            <p data-i18n="judoCopy">
               Wir lernen Fallen und Werfen, trainieren Körpergefühl und
               Konzentration. Dabei zählt nicht, wer der oder die Stärkste ist,
               sondern wie wir gemeinsam wachsen.
             </p>
             <div class="judo-points">
-              <div><span>01</span><strong>Bewegen</strong><small>Den eigenen Körper entdecken.</small></div>
-              <div><span>02</span><strong>Lernen</strong><small>Mit jedem Training sicherer werden.</small></div>
-              <div><span>03</span><strong>Respektieren</strong><small>Fair miteinander umgehen.</small></div>
+              <div><span>01</span><strong data-i18n="pointMoveTitle">Bewegen</strong><small data-i18n="pointMoveCopy">Den eigenen Körper entdecken.</small></div>
+              <div><span>02</span><strong data-i18n="pointLearnTitle">Lernen</strong><small data-i18n="pointLearnCopy">Mit jedem Training sicherer werden.</small></div>
+              <div><span>03</span><strong data-i18n="pointRespectTitle">Respektieren</strong><small data-i18n="pointRespectCopy">Fair miteinander umgehen.</small></div>
             </div>
           </div>
         </div>
@@ -143,24 +153,24 @@
 
       <section class="try-section section-wrap" id="mitmachen">
         <div class="try-copy">
-          <p class="eyebrow"><span></span> Dein erster Schritt</p>
-          <h2>Einfach mal<br>ausprobieren.</h2>
-          <p>
+          <p class="eyebrow"><span></span><span data-i18n="tryEyebrow">Dein erster Schritt</span></p>
+          <h2><span data-i18n="tryTitleFirst">Einfach mal</span><br><span data-i18n="tryTitleSecond">ausprobieren.</span></h2>
+          <p data-i18n="tryCopy">
             Du möchtest Judo kennenlernen? Melde dich bei uns und wir
             besprechen gemeinsam, wann du beim Training reinschnuppern kannst.
             Vorkenntnisse brauchst du nicht.
           </p>
-          <a class="button button-dark" href="#kontakt">Fragen? Schreib uns <span aria-hidden="true">→</span></a>
+          <a class="button button-dark" href="#kontakt"><span data-i18n="tryContact">Fragen? Schreib uns</span> <span aria-hidden="true">→</span></a>
         </div>
         <div class="try-card">
-          <div class="card-topline"><span>GUT ZU WISSEN</span><span>✳</span></div>
-          <h3>Das brauchst du<br>für den Anfang.</h3>
+          <div class="card-topline"><span data-i18n="cardKicker">GUT ZU WISSEN</span><span>✳</span></div>
+          <h3><span data-i18n="cardTitleFirst">Das brauchst du</span><br><span data-i18n="cardTitleSecond">für den Anfang.</span></h3>
           <ul>
-            <li><span>✓</span> Bequeme Sportkleidung</li>
-            <li><span>✓</span> Eine Trinkflasche</li>
-            <li><span>✓</span> Offenheit, Neues zu lernen</li>
+            <li><span>✓</span> <span data-i18n="cardItemOne">Bequeme Sportkleidung</span></li>
+            <li><span>✓</span> <span data-i18n="cardItemTwo">Eine Trinkflasche</span></li>
+            <li><span>✓</span> <span data-i18n="cardItemThree">Offenheit, Neues zu lernen</span></li>
           </ul>
-          <p>Alles Weitere klären wir ganz entspannt persönlich.</p>
+          <p data-i18n="cardCopy">Alles Weitere klären wir ganz entspannt persönlich.</p>
           <span class="card-decoration" aria-hidden="true">柔</span>
         </div>
       </section>
@@ -168,20 +178,20 @@
       <section class="contact-section" id="kontakt">
         <div class="section-wrap contact-layout">
           <div>
-            <p class="eyebrow eyebrow-light"><span></span> Wir freuen uns auf dich</p>
-            <h2>Dein Platz auf<br>der Matte wartet.</h2>
+            <p class="eyebrow eyebrow-light"><span></span><span data-i18n="contactEyebrow">Wir freuen uns auf dich</span></p>
+            <h2><span data-i18n="contactTitleFirst">Dein Platz auf</span><br><span data-i18n="contactTitleSecond">der Matte wartet.</span></h2>
           </div>
           <div class="contact-copy">
-            <p>
+            <p data-i18n="contactCopy">
               Du hast Fragen zum Training oder möchtest erst einmal
               reinschnuppern? Nimm Kontakt mit dem Verein auf – wir helfen dir
               gerne weiter.
             </p>
             <div class="contact-details">
-              <strong>Vereinskontakt</strong>
-              <span>Offizielle Website oder E-Mail-Adresse hier ergänzen.</span>
+              <strong data-i18n="contactDetailsTitle">Vereinskontakt</strong>
+              <span data-i18n="contactDetailsCopy">Offizielle Website oder E-Mail-Adresse hier ergänzen.</span>
             </div>
-            <small>Bitte vor der Veröffentlichung Trainingszeiten und Kontaktdaten ergänzen.</small>
+            <small data-i18n="contactNote">Bitte vor der Veröffentlichung Trainingszeiten und Kontaktdaten ergänzen.</small>
           </div>
         </div>
       </section>
@@ -192,8 +202,8 @@
         <span class="brand-mark" aria-hidden="true">柔</span>
         <span class="brand-name">TV BRUVI <span>JUDO</span></span>
       </a>
-      <p>Respekt. Bewegung. Miteinander.</p>
-      <a href="#start" class="back-to-top">Zurück nach oben ↑</a>
+      <p data-i18n="footerTagline">Respekt. Bewegung. Miteinander.</p>
+      <a href="#start" class="back-to-top"><span data-i18n="backToTop">Zurück nach oben</span> ↑</a>
       <small>© <span id="current-year"></span> TV Bruvi Judo</small>
     </footer>
   </body>
