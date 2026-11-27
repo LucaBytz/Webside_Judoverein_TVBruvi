@@ -243,6 +243,50 @@ const navigation = document.querySelector("#primary-navigation");
 const currentYear = document.querySelector("#current-year");
 const description = document.querySelector('meta[name="description"]');
 const titleElement = document.querySelector("title");
+const languageStorageKey = "judo-website-language";
+
+function readStoredLanguage() {
+  try {
+    return window.localStorage.getItem(languageStorageKey);
+  } catch {
+    return null;
+  }
+}
+
+function storeLanguage(language) {
+  try {
+    window.localStorage.setItem(languageStorageKey, language);
+  } catch {
+    // The page can still use the URL language parameter if storage is unavailable.
+  }
+}
+
+function initialLanguage() {
+  const urlLanguage = new URLSearchParams(window.location.search).get("lang");
+  if (languageCodes.includes(urlLanguage)) {
+    return urlLanguage;
+  }
+
+  const storedLanguage = readStoredLanguage();
+  if (languageCodes.includes(storedLanguage)) {
+    return storedLanguage;
+  }
+
+  if (languageSelector && languageCodes.includes(languageSelector.value)) {
+    return languageSelector.value;
+  }
+
+  return languageCodes.includes(document.documentElement.lang)
+    ? document.documentElement.lang
+    : "de";
+}
+
+function updateLegalLinks(language) {
+  document.querySelectorAll('a[href^="impressum.html"], a[href^="privacy-policy.html"]').forEach((link) => {
+    const page = link.getAttribute("href").split("?")[0];
+    link.setAttribute("href", `${page}?lang=${language}`);
+  });
+}
 
 function translate(language) {
   const languageIndex = languageCodes.indexOf(language);
@@ -251,12 +295,18 @@ function translate(language) {
     return;
   }
 
+  document.documentElement.lang = language;
+  if (languageSelector) {
+    languageSelector.value = language;
+  }
+  storeLanguage(language);
+  updateLegalLinks(language);
+
   if (navigation) {
     navigation.lang = language;
   }
 
   if (titleElement && titleElement.dataset.i18n) {
-    document.documentElement.lang = language;
     document.title = translations[titleElement.dataset.i18n][languageIndex];
   }
   if (description && description.dataset.i18nContent) {
@@ -325,5 +375,5 @@ if (currentYear) {
 }
 
 if (languageSelector) {
-  translate(languageSelector.value);
+  translate(initialLanguage());
 }

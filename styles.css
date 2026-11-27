@@ -130,7 +130,7 @@ button {
 
 .brand-name {
   font-family: "Manrope", sans-serif;
-  font-size: 13px;
+  font-size: 16.9px;
   font-weight: 800;
   letter-spacing: 0.04em;
 }
@@ -139,7 +139,7 @@ button {
   display: block;
   margin-top: 2px;
   color: var(--muted);
-  font-size: 9px;
+  font-size: 11.7px;
   letter-spacing: 0.08em;
 }
 
