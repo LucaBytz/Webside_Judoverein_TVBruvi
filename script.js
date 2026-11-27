@@ -243,7 +243,90 @@ const navigation = document.querySelector("#primary-navigation");
 const currentYear = document.querySelector("#current-year");
 const description = document.querySelector('meta[name="description"]');
 const titleElement = document.querySelector("title");
+const newsGrid = document.querySelector(".news-grid");
 const languageStorageKey = "judo-website-language";
+
+function isValidTournamentResult(entry) {
+  if (
+    !entry ||
+    typeof entry.image !== "string" ||
+    typeof entry.date !== "string" ||
+    typeof entry.title !== "string" ||
+    typeof entry.text !== "string"
+  ) {
+    return false;
+  }
+
+  const date = new Date(`${entry.date}T00:00:00Z`);
+  return (
+    /^assets\/news\/[A-Za-z0-9._/-]+\.(?:jpe?g|png|webp)$/i.test(entry.image) &&
+    !entry.image.split("/").includes("..") &&
+    /^\d{4}-\d{2}-\d{2}$/.test(entry.date) &&
+    !Number.isNaN(date.getTime()) &&
+    date.toISOString().slice(0, 10) === entry.date &&
+    entry.title.trim().length > 0 &&
+    entry.text.trim().length > 0
+  );
+}
+
+function renderAdditionalTournamentResults(entries) {
+  const fragment = document.createDocumentFragment();
+  const sortedEntries = [...entries].sort((first, second) =>
+    second.date.localeCompare(first.date)
+  );
+
+  sortedEntries.forEach((entry) => {
+    const article = document.createElement("article");
+    article.className = "news-card";
+
+    const image = document.createElement("img");
+    image.className = "news-photo";
+    image.src = entry.image;
+    image.alt = entry.title;
+    image.loading = "lazy";
+    image.decoding = "async";
+
+    const date = document.createElement("time");
+    date.dateTime = entry.date;
+    date.textContent = new Date(`${entry.date}T00:00:00`).toLocaleDateString("de-DE");
+
+    const title = document.createElement("h3");
+    title.textContent = entry.title;
+
+    const text = document.createElement("p");
+    text.textContent = entry.text;
+
+    article.append(image, date, title, text);
+    fragment.append(article);
+  });
+
+  newsGrid.append(fragment);
+
+  const articles = [...newsGrid.querySelectorAll(".news-card")];
+  articles.sort((first, second) =>
+    second.querySelector("time").dateTime.localeCompare(first.querySelector("time").dateTime)
+  );
+  articles.forEach((article) => newsGrid.append(article));
+}
+
+if (newsGrid) {
+  fetch("data/tournament-results.json")
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(`Request failed with status ${response.status}`);
+      }
+      return response.json();
+    })
+    .then((entries) => {
+      if (!Array.isArray(entries) || !entries.every(isValidTournamentResult)) {
+        throw new Error("Tournament results data has an invalid format");
+      }
+      renderAdditionalTournamentResults(entries);
+    })
+    .catch((error) => {
+      console.error("Could not load additional tournament results.", error);
+    });
+}
 
 function readStoredLanguage() {
   try {

@@ -1,0 +1,35 @@
+media:
+  input: assets/news
+  output: assets/news
+  categories: [image]
+  extensions: [jpg, jpeg, png, webp]
+  rename: safe
+
+content:
+  - name: tournament-results
+    label: Turnierergebnisse
+    type: file
+    path: data/tournament-results.json
+    format: json
+    list: true
+    fields:
+      - name: image
+        label: Bild
+        type: image
+        required: true
+        options:
+          extensions: [jpg, jpeg, png, webp]
+      - name: date
+        label: Datum
+        type: date
+        required: true
+        options:
+          format: yyyy-MM-dd
+      - name: title
+        label: Titel
+        type: string
+        required: true
+      - name: text
+        label: Text
+        type: text
+        required: true
